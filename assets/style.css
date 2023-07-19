@@ -14,6 +14,7 @@
   text-align: left;
   margin: 1%;
   color: white;
+  position: absolute;
 }
 
 .header h1{
@@ -28,23 +29,17 @@
 
 #octoMid1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #centerprompt {
-  padding-top: 2%;
-  padding-right: 5%;
   font-size: 36px;
-  position: absolute;
-  margin-left: -7%;
   z-index: -1;
 }
 
 
 #text1card {
   justify-content: center;
-  width: 250px;
-  height: 150px;
   /* background-image: url("./images/inca-thumbnail.jpg"); */
   background-size: cover;
 }
@@ -52,9 +47,7 @@
 
 #text2card {
   margin-left: 5%;
-  justify-content: center;
-  width: 250px;
-  height: 150px;
+  justify-content: flex-end;
   /* background-image: url("./images/aztec-thumbnail.jpg"); */
   background-size: cover;
 }
@@ -62,24 +55,29 @@
 #text3card {
   margin-right: 5%;
   justify-content: center;
-  width: 250px;
-  height: 150px;
   /* background-image: url("./images/chinese-thumbnail.jpg"); */
   background-size: cover;
 }
 
 #text4card {
   justify-content: center;
-  width: 250px;
-  height: 150px;
   /* background-image: url("./images/europe-thumbnail.jpg"); */
   background-size: cover;
 }
 
-#text5card {
+#octoMid2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#octocenter {
+  display: flex;
   justify-content: center;
-  width: 250px;
-  height: 150px;
+  width: 75%;
+}
+
+
+#text5card {
   /* background-image: url("./images/europe-thumbnail.jpg"); */
   background-size: cover;
 }
@@ -87,8 +85,6 @@
 #text6card {
   margin-left: 5%;
   justify-content: center;
-  width: 250px;
-  height: 150px;
   /* background-image: url("./images/ottoman-thumbnail.png"); */
   background-size: cover;
 }
@@ -96,8 +92,6 @@
 #text7card {
   margin-right: -15%;
   justify-content: center;
-  width: 250px;
-  height: 150px;
   /* background-image: url("./images/yoruba-thumbnail.jpg"); */
   background-size: cover;
 }
@@ -105,8 +99,6 @@
 #text8card {
   justify-content: center;
   justify-content: center;
-  width: 250px;
-  height: 150px;
   /* background-image: url("./images/seuna-thumbnail.jpg"); */
   background-size: cover;
 }
@@ -126,7 +118,7 @@
 
 #octoMid3 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #octoBottom {
@@ -153,7 +145,8 @@
 .textcard {
     display: inline-block;
     text-align: center;
-    max-width: 250px;
+    width: 250px;
+    height: 150px;
     padding: 20px;
     margin: 3px;
    /* background-color: rgb(206, 206, 206);*/
@@ -170,6 +163,19 @@
 
 .textcard:hover {
   color: rgb(255, 255, 255);
+}
+
+.infocard {
+  width: 500px;
+  height: 300px;
+  transition: 2s;
+}
+
+.smallbubble {
+  width: 100px;
+  height: 50px;
+  border-radius: 70% / 65%;
+  transition: 2s;
 }
 
 .modal {

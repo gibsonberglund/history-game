@@ -54,6 +54,8 @@ let mideastText8 = 'Umayyad Caliphate 650 - 750 C.E.';
 
 let mideastTexts =[mideastText1, mideastText2, mideastText3, mideastText4, mideastText5, mideastText6, mideastText7, mideastText8];
 
+let mideastPreHistText = "Göbekli Tepe (Turkish: [ɟœbecˈli teˈpe],[2] 'Potbelly Hill';[3] known as Girê Mirazan or Xirabreşkê in Kurdish)[4] is a Neolithic archaeological site in the Southeastern Anatolia Region of Turkey. Dated to the Pre-Pottery Neolithic, between c. 9500 and 8000 BCE, the site comprises a number of large circular structures supported by massive stone pillars – the world's oldest known megaliths. Many of these pillars are richly decorated with figurative anthropomorphic details, clothing, and reliefs of wild animals, providing archaeologists rare insights into prehistoric religion and the particular iconography of the period. The 15 m (50 ft)-high, 8 ha (20-acre) tell also includes many smaller buildings, quarries, and stone-cut cisterns from the Neolithic, as well as some traces of activity from later periods. ";
+
 //main text display variable
 let maintextDisplay = document.querySelector('#maintextdisplay');
 
@@ -99,6 +101,8 @@ let texts = [text1, text2, text3, text4, text5, text6, text7, text8];
 
 let shorttexts = [shorttext1, shorttext2, shorttext3, shorttext4, shorttext5, shorttext6, shorttext7, shorttext8];
 
+window.onload = homePage();
+
 function homePage() {
   for (var i = 0; i < textCards.length; i++) {
     textCards[i].style.backgroundImage = homePageThumbs[i];
@@ -112,8 +116,18 @@ function midEast() {
     textCards[i].style.backgroundImage = mideastImgs[i];
     centerPrompt.textContent = "Middle East";
     texts[i].textContent = mideastTexts[i];
-    // texts[i].textContent = midEastTexts[i];
+    pageId = "mideast";
   };
+};
+
+function midEastPreHist() {
+  text1Card.setAttribute('class', 'infocard');
+  for (var i = 1; i < textCards.length; i++) {
+    textCards[i].setAttribute('class', 'smallbubble');
+  };
+  centerPrompt.textContent = mideastPreHistText;
+  centerPrompt.setAttribute('style', 'font-size: 18px;');
+  // text2Card.setAttribute('style', 'justify-content: flex-end');
 };
 
 
@@ -141,8 +155,8 @@ text1Card.addEventListener('click', function(event) {
       // openInca();
       midEast();
       console.log('hello');
-    } else if (pageId === "Inca") {
-      openModal();
+    } else if (pageId === "mideast") {
+      midEastPreHist();
     }
 });
 
