@@ -10,6 +10,12 @@
 
 let siteTitle = document.querySelector('#sitetitle');
 
+let backgroundImg = document.querySelector('#backgroundimg');
+
+//HOMEPAGE
+
+let homePagePrompt = "Choose A Realm";
+
 let mideastThumb = "url('./assets/images/mideast-thumbnail.jpg')";
 let americaThumb = "url('./assets/images/inca-thumbnail.jpg')";
 let eastAsiaThumb = "url('./assets/images/chinese-thumbnail.jpg')";
@@ -21,6 +27,17 @@ let steppeThumb = "url('./assets/images/steppe-thumbnail.jpg')";
 
 let homePageThumbs = [mideastThumb, africaThumb, eastAsiaThumb, centralAsiaThumb, euroThumb, americaThumb, oceaniaThumb, steppeThumb];
 
+let shorttext1 = `Middle East`;
+let shorttext2 = `Africa`;
+let shorttext3 = `East Asia`;
+let shorttext4 = `Central Asia`;
+let shorttext5 = `Europe`;
+let shorttext6 = `Americas`;
+let shorttext7 = `Oceania`;
+let shorttext8 = `The Steppe`;
+
+//MIDDLE EAST
+
 let gobekli = "url('./assets/images/mideast/gobekli.jpg')";
 let sumer = "url('./assets/images/mideast/sumer.jpg')";
 let assyria = "url('./assets/images/mideast/assyria.jpg')";
@@ -31,16 +48,6 @@ let sassanid = "url('./assets/images/mideast/sassanid.jpg')";
 let umayyad = "url('./assets/images/mideast/umayyad.jpg')";
 
 let mideastImgs = [gobekli, sumer, assyria, persia, seleucid, parthia, sassanid, umayyad];
-
-//Homepage text
-let shorttext1 = `Middle East`;
-let shorttext2 = `Africa`;
-let shorttext3 = `East Asia`;
-let shorttext4 = `Central Asia`;
-let shorttext5 = `Europe`;
-let shorttext6 = `Americas`;
-let shorttext7 = `Oceania`;
-let shorttext8 = `The Steppe`;
 
 //Mideast page text
 let mideastText1 = 'Prehistory 8000 - 3000 B.C.E.';
@@ -55,6 +62,36 @@ let mideastText8 = 'Umayyad Caliphate 650 - 750 C.E.';
 let mideastTexts =[mideastText1, mideastText2, mideastText3, mideastText4, mideastText5, mideastText6, mideastText7, mideastText8];
 
 let mideastPreHistText = "Göbekli Tepe (Turkish: [ɟœbecˈli teˈpe],[2] 'Potbelly Hill';[3] known as Girê Mirazan or Xirabreşkê in Kurdish)[4] is a Neolithic archaeological site in the Southeastern Anatolia Region of Turkey. Dated to the Pre-Pottery Neolithic, between c. 9500 and 8000 BCE, the site comprises a number of large circular structures supported by massive stone pillars – the world's oldest known megaliths. Many of these pillars are richly decorated with figurative anthropomorphic details, clothing, and reliefs of wild animals, providing archaeologists rare insights into prehistoric religion and the particular iconography of the period. The 15 m (50 ft)-high, 8 ha (20-acre) tell also includes many smaller buildings, quarries, and stone-cut cisterns from the Neolithic, as well as some traces of activity from later periods. ";
+let assyriaText = "Ashur-uballit I was the first native Assyrian ruler to claim the royal title šar ('king').[39] Shortly after achieving independence, he further claimed the dignity of a great king on the level of the Egyptian pharaohs and the Hittite kings.[53] Assyria's rise was intertwined with the decline and fall of the Mitanni kingdom, its former suzerain, which allowed the early Middle Assyrian kings to expand and consolidate territories in northern Mesopotamia.";
+let sumerText = "Sumer (/ˈsuːmər/) is the earliest known civilization in the historical region of southern Mesopotamia (south-central Iraq), emerging during the Chalcolithic and early Bronze Ages between the sixth and fifth millennium BC. It is one of the cradles of civilization in the world, along with ancient Egypt, Elam, the Caral-Supe civilization, Mesoamerica, the Indus Valley civilisation, and ancient China. Living along the valleys of the Tigris and Euphrates rivers, Sumerian farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Proto-writing dates back to c. 4000 – c. 2500 BC. The earliest texts come from the cities of Uruk and Jemdet Nasr, and date to between c. 3350 – c. 2500 BC.";
+
+//EUROPE
+
+let stonehenge = "url('./assets/images/europe/stonehenge.jpg')";
+let minoa = "url('./assets/images/europe/minoan.jpg')";
+let athens = "url('./assets/images/europe/athens.jpg')";
+let macedon = "url('./assets/images/europe/macedon.jpg')";
+let rome = "url('./assets/images/europe/rome.jpg')";
+let viking = "url('./assets/images/europe/viking.jpg')";
+let medieval = "url('./assets/images/europe/castle.jpg')";
+let rennaisance = "url('./assets/images/europe/ships.jpg')";
+
+let europeImgs = [stonehenge, minoa, athens, macedon, rome, viking, medieval, rennaisance];
+
+let europeText1 = 'Prehistory 8000 - 3000 B.C.';
+let europeText2 = 'Minoa and Mycenae 2000 - 1300 B.C.';
+let europeText3 = 'Penelopesian States 800 - 330 B.C.';
+let europeText4 = 'Helenistic Period 330 - 50 B.C.';
+let europeText5 = 'Roman Republic and Empire 250 B.C. - 400 A.D.';
+let europeText6 = 'The Dark Age 500 - 1000 A.D.';
+let europeText7 = 'Medieval Age 1000 - 1500 A.D.';
+let europeText8 = 'Age Of Exploration 1500 - 1800 A.D.';
+
+let europeTexts = [europeText1, europeText2, europeText3, europeText4, europeText5, europeText6, europeText7, europeText8];
+
+let euroPreHistText = "The New Stone Age, or Neolithic era, began with the introduction of farming, ultimately from the Middle East, around 4000 BC. It is not known whether this was caused by a substantial folk movement or native adoption of foreign practices or both. People began to lead a more settled lifestyle. Monumental collective tombs were built for the dead in the form of chambered cairns and long barrows. Towards the end of the period, other kinds of monumental stone alignments begin to appear, such as Stonehenge; their cosmic alignments show a preoccupation with the sky and planets. Flint technology produced a number of highly artistic pieces as well as purely pragmatic. More extensive woodland clearance was done for fields and pastures. The Sweet Track in the Somerset Levels is one of the oldest timber trackways known in Northern Europe and among the oldest roads in the world, dated by dendrochronology to the winter of 3807–3806 BC; it too is thought to have been a primarily religious structure.[7] Archaeological evidence from North Yorkshire indicates that salt was being manufactured there in the Neolithic.[9]";
+
+let euroRomeText = "The Roman Empire[a] was the post-Republican state of ancient Rome. It included territory around the Mediterranean in Europe, North Africa, and Western Asia, and was ruled by emperors. The adoption of Christianity as the state church in 380 and the fall of the Western Roman Empire conventionally marks the end of classical antiquity and the beginning of the Middle Ages.";
 
 //main text display variable
 let maintextDisplay = document.querySelector('#maintextdisplay');
@@ -99,27 +136,40 @@ let text8 = document.querySelector('#text8');
 
 let texts = [text1, text2, text3, text4, text5, text6, text7, text8];
 
+let seeMoreBtn = document.querySelector("#seemorebtn");
+
 let shorttexts = [shorttext1, shorttext2, shorttext3, shorttext4, shorttext5, shorttext6, shorttext7, shorttext8];
 
 window.onload = homePage();
 
+
+//HOMEPAGE
 function homePage() {
   for (var i = 0; i < textCards.length; i++) {
     textCards[i].style.backgroundImage = homePageThumbs[i];
+    textCards[i].setAttribute('class', 'textcard');
     texts[i].textContent = shorttexts[i];
+    centerPrompt.textContent = homePagePrompt;
+    centerPrompt.setAttribute('style', 'inherit');
+    seeMoreBtn.style.display = "none";
+    backgroundImg.setAttribute('class', 'backgroundimg');
+    pageId = "homepage";
   };
 
 };
 
+//MIDDLE EAST PAGE
 function midEast() {
   for (var i = 0; i < textCards.length; i++) {
     textCards[i].style.backgroundImage = mideastImgs[i];
     centerPrompt.textContent = "Middle East";
     texts[i].textContent = mideastTexts[i];
     pageId = "mideast";
+    backgroundImg.setAttribute('class', 'backgroundmideast');
   };
 };
 
+//MIDDLE EAST PREHISTORY
 function midEastPreHist() {
   text1Card.setAttribute('class', 'infocard');
   for (var i = 1; i < textCards.length; i++) {
@@ -127,7 +177,55 @@ function midEastPreHist() {
   };
   centerPrompt.textContent = mideastPreHistText;
   centerPrompt.setAttribute('style', 'font-size: 18px;');
-  // text2Card.setAttribute('style', 'justify-content: flex-end');
+  seeMoreBtn.style.display = "inherit";
+};
+
+function assyriaInfo() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].setAttribute('class', 'smallbubble');
+  };
+  text3Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = assyriaText;
+  centerPrompt.setAttribute('style', 'font-size: 18px;');
+};
+
+
+//EUROPE PAGE
+function europe() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].style.backgroundImage = europeImgs[i];
+    centerPrompt.textContent = "Europe";
+    texts[i].textContent = europeTexts[i];
+    pageId = "europe";
+  };
+};
+
+//EUROPE PREHISTORY
+function euroPreHist() {
+  text1Card.setAttribute('class', 'infocard');
+  for (var i = 1; i < textCards.length; i++) {
+    textCards[i].setAttribute('class', 'smallbubble');
+  };
+  centerPrompt.textContent = euroPreHistText;
+  centerPrompt.setAttribute('style', 'font-size: 18px;');
+};
+
+function romeInfo() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].setAttribute('class', 'smallbubble');
+  };
+  text5Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = euroRomeText;
+  centerPrompt.setAttribute('style', 'font-size: 18px;');
+};
+
+function sumerInfo() {
+    for (var i = 0; i < textCards.length; i++) {
+      textCards[i].setAttribute('class', 'smallbubble');
+    };
+    text2Card.setAttribute('class', 'infocard');
+    centerPrompt.textContent = sumerText;
+    centerPrompt.setAttribute('style', 'font-size: 18px;');
 };
 
 
@@ -136,28 +234,63 @@ function midEastPreHist() {
 
 
 
-let modal1 = document.querySelector('#modal1');
-let modalContent1 = document.querySelector('#modalcontent1');
-let text1Button = document.querySelector('#text1button');
+// let modal1 = document.querySelector('#modal1');
+// let modalContent1 = document.querySelector('#modalcontent1');
+// let text1Button = document.querySelector('#text1button');
 
-let aboutButton1 = document.querySelector('#aboutbutton1');
+// let aboutButton1 = document.querySelector('#aboutbutton1');
 
 siteTitle.addEventListener('click', function() {
+  console.log('are you there');
   homePage();
 })
 
+seeMoreBtn.addEventListener('click', function(event) {
+  event.preventDefault();
+
+})
 
 //listens for click on one of the text cards
 text1Card.addEventListener('click', function(event) {
-//changes size and content when clicked
     event.preventDefault();
     if (pageId === "homepage") {
-      // openInca();
       midEast();
-      console.log('hello');
     } else if (pageId === "mideast") {
       midEastPreHist();
+    } else if (pageId === "europe") {
+      euroPreHist();
     }
+});
+
+text2Card.addEventListener('click', function(event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    africa();
+  } else if (pageId === "mideast") {
+    sumerInfo();
+  } else if (pageId === "europe") {
+    minoa();
+  }
+})
+
+text3Card.addEventListener('click', function(event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    eastAsia();
+  } else if (pageId === "mideast") {
+    assyriaInfo();
+  } else if (pageId === "europe") {
+    euroPreHist();
+  }
+})
+
+text5Card.addEventListener('click', function (event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    europe();
+  } else if (pageId === "europe") {
+    romeInfo();
+  }
 });
 
 

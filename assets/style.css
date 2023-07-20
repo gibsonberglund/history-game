@@ -1,12 +1,34 @@
-.background {
-    background-image: url("./images/vintage-medieval-map-world-1626.jpg");
-    background-size: cover;
+/* .background {
+    background-image: url("./images/worldmap.jpg");
+    background-size: contain;
+    transition: 2s;
+} */
+
+.backgroundimg {
+  margin-top: -1%;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  transition: 2s;
+}
+
+.backgroundmideast {
+  width: 300%;
+  height: 300%;
+  transform: translate(-2000px, -200px);
+  z-index: -1;
+  margin-top: -1%;
+  transition: 2s;
+  position: fixed;
 }
 
 #maintextdisplay {
   margin:  15px; 
   display: block;
   flex-direction: row;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header {
@@ -15,6 +37,7 @@
   margin: 1%;
   color: white;
   position: absolute;
+  z-index: 1;
 }
 
 .header h1{
@@ -66,14 +89,15 @@
 }
 
 #octoMid2 {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #octocenter {
   display: flex;
   justify-content: center;
   width: 75%;
+  color: white;
 }
 
 
