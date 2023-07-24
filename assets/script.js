@@ -61,9 +61,14 @@ let mideastText8 = 'Umayyad Caliphate 650 - 750 C.E.';
 
 let mideastTexts =[mideastText1, mideastText2, mideastText3, mideastText4, mideastText5, mideastText6, mideastText7, mideastText8];
 
-let mideastPreHistText = "Göbekli Tepe (Turkish: [ɟœbecˈli teˈpe],[2] 'Potbelly Hill';[3] known as Girê Mirazan or Xirabreşkê in Kurdish)[4] is a Neolithic archaeological site in the Southeastern Anatolia Region of Turkey. Dated to the Pre-Pottery Neolithic, between c. 9500 and 8000 BCE, the site comprises a number of large circular structures supported by massive stone pillars – the world's oldest known megaliths. Many of these pillars are richly decorated with figurative anthropomorphic details, clothing, and reliefs of wild animals, providing archaeologists rare insights into prehistoric religion and the particular iconography of the period. The 15 m (50 ft)-high, 8 ha (20-acre) tell also includes many smaller buildings, quarries, and stone-cut cisterns from the Neolithic, as well as some traces of activity from later periods. ";
-let assyriaText = "Ashur-uballit I was the first native Assyrian ruler to claim the royal title šar ('king').[39] Shortly after achieving independence, he further claimed the dignity of a great king on the level of the Egyptian pharaohs and the Hittite kings.[53] Assyria's rise was intertwined with the decline and fall of the Mitanni kingdom, its former suzerain, which allowed the early Middle Assyrian kings to expand and consolidate territories in northern Mesopotamia.";
+let mideastPreHistText = "Göbekli Tepe (Turkish: [ɟœbecˈli teˈpe], 'Potbelly Hill'; known as Girê Mirazan or Xirabreşkê in Kurdish) is a Neolithic archaeological site in the Southeastern Anatolia Region of Turkey. Dated to the Pre-Pottery Neolithic, between c. 9500 and 8000 BCE, the site comprises a number of large circular structures supported by massive stone pillars – the world's oldest known megaliths. Many of these pillars are richly decorated with figurative anthropomorphic details, clothing, and reliefs of wild animals, providing archaeologists rare insights into prehistoric religion and the particular iconography of the period. The 15 m (50 ft)-high, 8 ha (20-acre) tell also includes many smaller buildings, quarries, and stone-cut cisterns from the Neolithic, as well as some traces of activity from later periods. ";
+let assyriaText = "Ashur-uballit I was the first native Assyrian ruler to claim the royal title šar ('king'). Shortly after achieving independence, he further claimed the dignity of a great king on the level of the Egyptian pharaohs and the Hittite kings. Assyria's rise was intertwined with the decline and fall of the Mitanni kingdom, its former suzerain, which allowed the early Middle Assyrian kings to expand and consolidate territories in northern Mesopotamia.";
 let sumerText = "Sumer (/ˈsuːmər/) is the earliest known civilization in the historical region of southern Mesopotamia (south-central Iraq), emerging during the Chalcolithic and early Bronze Ages between the sixth and fifth millennium BC. It is one of the cradles of civilization in the world, along with ancient Egypt, Elam, the Caral-Supe civilization, Mesoamerica, the Indus Valley civilisation, and ancient China. Living along the valleys of the Tigris and Euphrates rivers, Sumerian farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Proto-writing dates back to c. 4000 – c. 2500 BC. The earliest texts come from the cities of Uruk and Jemdet Nasr, and date to between c. 3350 – c. 2500 BC.";
+let persiaText = "The Achaemenid Empire or Achaemenian Empire (/əˈkiːmənɪd/; Old Persian: 𐎧𐏁𐏂, Xšāça, lit. 'The Empire' or 'The Kingdom') was the ancient Iranian empire founded by Cyrus the Great in 550 BC, known also as the First Persian Empire. Based in Western Asia, it was the largest empire the world had ever seen at its time, spanning a total of 5.5 million square kilometres (2.1 million square miles) from the Balkans and Egypt in the west to Central Asia and the Indus Valley in the east.";
+let seleucidText = "The Seleucid Empire (/sɪˈljuːsɪd/; Ancient Greek: Βασιλεία τῶν Σελευκιδῶν, romanized: Basileía tōn Seleukidōn, lit. 'Kingdom of the Seleucids') was a Hellenistic power in West Asia. It was founded in 312 BC by the Macedonian general Seleucus I Nicator, following the division of the Macedonian Empire founded by Alexander the Great, and ruled by the Seleucid dynasty until its annexation by the Roman Republic under Pompey in 63 BC."
+let parthiaText = "The Parthian Empire (/ˈpɑːrθiən/), also known as the Arsacid Empire (/ˈɑːrsəsɪd/), was a major Iranian political and cultural power in ancient Iran from 247 BC to 224 AD. Its latter name comes from its founder, Arsaces I,who led the Parni tribe in conquering the region of Parthia in Iran's northeast, then a satrapy (province) under Andragoras, who was rebelling against the Seleucid Empire. Mithridates I (r. c. 171 – 132 BC) greatly expanded the empire by seizing Media and Mesopotamia from the Seleucids. At its height, the Parthian Empire stretched from the northern reaches of the Euphrates, in what is now central-eastern Turkey, to present-day Afghanistan and western Pakistan. The empire, located on the Silk Road trade route between the Roman Empire in the Mediterranean Basin and the Han dynasty of China, became a center of trade and commerce.";
+let sasaniaText = "The Sasanian Empire (/səˈsɑːniən, səˈseɪniən/), officially known as Eranshahr ('Land/Empire of the Iranians'), was the last Iranian empire before the early Muslim conquests of the 7th–8th centuries AD. Named after the House of Sasan, it endured for over four centuries, from 224 to 651 AD, making it the longest-lived Persian imperial dynasty. The Sasanian Empire succeeded the Parthian Empire, and re-established the Persians as a major power in late antiquity alongside its neighbouring arch-rival, the Roman Empire (after 395 the Byzantine Empire)";
+let umayyadText = "The Umayyad Caliphate (661–750 CE) was the second caliphate established after the death of the Islamic prophet Muhammad. The caliphate was ruled by the Umayyad dynasty, also known as the Umayyads (Arabic: ٱلْأُمَوِيُّون, al-ʾUmawīyūn, or بَنُو أُمَيَّة, Banū ʾUmayya, 'Sons of Umayya'). Uthman ibn Affan (r. 644–656), the third of the Rashidun caliphs, was also a member of the clan. The family established dynastic, hereditary rule with Muawiya ibn Abi Sufyan, long-time governor of Greater Syria, who became caliph after the end of the First Fitna in 661. After Mu'awiya's death in 680, conflicts over the succession resulted in the Second Fitna, and power eventually fell to Marwan I, from another branch of the clan. Syria remained the Umayyads' main power base thereafter, with Damascus as their capital.";
 
 //EUROPE
 
@@ -171,23 +176,55 @@ function midEast() {
 
 //MIDDLE EAST PREHISTORY
 function midEastPreHist() {
+  infoDisplay();
   text1Card.setAttribute('class', 'infocard');
-  for (var i = 1; i < textCards.length; i++) {
-    textCards[i].setAttribute('class', 'smallbubble');
-  };
   centerPrompt.textContent = mideastPreHistText;
-  centerPrompt.setAttribute('style', 'font-size: 18px;');
-  seeMoreBtn.style.display = "inherit";
+  // seeMoreBtn.style.display = "inherit";
+};
+
+function sumerInfo() {
+  infoDisplay();
+  text2Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = sumerText;
 };
 
 function assyriaInfo() {
-  for (var i = 0; i < textCards.length; i++) {
-    textCards[i].setAttribute('class', 'smallbubble');
-  };
+  infoDisplay();
   text3Card.setAttribute('class', 'infocard');
   centerPrompt.textContent = assyriaText;
-  centerPrompt.setAttribute('style', 'font-size: 18px;');
 };
+
+function persiaInfo() {
+  infoDisplay();
+  text4Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = persiaText;
+};
+
+function seleucidInfo() {
+  infoDisplay();
+  text5Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = seleucidText;
+};
+
+function parthiaInfo() {
+  infoDisplay();
+  text6Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = parthiaText;
+};
+
+function sasaniaInfo() {
+  infoDisplay();
+  text7Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = sasaniaText;
+};
+
+function umayyadInfo() {
+  infoDisplay();
+  text8Card.setAttribute('class', 'infocard');
+  centerPrompt.textContent = umayyadText;
+};
+
+
 
 
 //EUROPE PAGE
@@ -197,17 +234,15 @@ function europe() {
     centerPrompt.textContent = "Europe";
     texts[i].textContent = europeTexts[i];
     pageId = "europe";
+    backgroundImg.setAttribute('class', 'backgroundeurope');
   };
 };
 
 //EUROPE PREHISTORY
 function euroPreHist() {
+  infoDisplay();
   text1Card.setAttribute('class', 'infocard');
-  for (var i = 1; i < textCards.length; i++) {
-    textCards[i].setAttribute('class', 'smallbubble');
-  };
   centerPrompt.textContent = euroPreHistText;
-  centerPrompt.setAttribute('style', 'font-size: 18px;');
 };
 
 function romeInfo() {
@@ -219,13 +254,11 @@ function romeInfo() {
   centerPrompt.setAttribute('style', 'font-size: 18px;');
 };
 
-function sumerInfo() {
-    for (var i = 0; i < textCards.length; i++) {
-      textCards[i].setAttribute('class', 'smallbubble');
-    };
-    text2Card.setAttribute('class', 'infocard');
-    centerPrompt.textContent = sumerText;
-    centerPrompt.setAttribute('style', 'font-size: 18px;');
+function infoDisplay() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].setAttribute('class', 'smallbubble');
+  };
+  centerPrompt.setAttribute('style', 'font-size: 18px;');
 };
 
 
@@ -271,7 +304,7 @@ text2Card.addEventListener('click', function(event) {
   } else if (pageId === "europe") {
     minoa();
   }
-})
+});
 
 text3Card.addEventListener('click', function(event) {
   event.preventDefault();
@@ -282,12 +315,25 @@ text3Card.addEventListener('click', function(event) {
   } else if (pageId === "europe") {
     euroPreHist();
   }
-})
+});
+
+text4Card.addEventListener('click', function(event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    centralAsia();
+  } else if (pageId === "mideast") {
+    persiaInfo();
+  } else if (pageId === "europe") {
+    helenistic();
+  }
+});
 
 text5Card.addEventListener('click', function (event) {
   event.preventDefault();
   if (pageId === "homepage") {
     europe();
+  } else if (pageId === "mideast") {
+    seleucidInfo();
   } else if (pageId === "europe") {
     romeInfo();
   }
