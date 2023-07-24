@@ -174,7 +174,6 @@ function midEast() {
   };
 };
 
-//MIDDLE EAST PREHISTORY
 function midEastPreHist() {
   infoDisplay();
   text1Card.setAttribute('class', 'infocard');
@@ -225,8 +224,6 @@ function umayyadInfo() {
 };
 
 
-
-
 //EUROPE PAGE
 function europe() {
   for (var i = 0; i < textCards.length; i++) {
@@ -238,7 +235,6 @@ function europe() {
   };
 };
 
-//EUROPE PREHISTORY
 function euroPreHist() {
   infoDisplay();
   text1Card.setAttribute('class', 'infocard');
@@ -339,6 +335,38 @@ text5Card.addEventListener('click', function (event) {
   }
 });
 
+text6Card.addEventListener('click', function (event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    americaInfo();
+  } else if (pageId === "mideast") {
+    parthiaInfo();
+  } else if (pageId === "europe") {
+    darkageInfo();
+  }
+});
+
+text7Card.addEventListener('click', function (event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    oceania();
+  } else if (pageId === "mideast") {
+    sasaniaInfo();
+  } else if (pageId === "europe") {
+    medievalInfo();
+  }
+});
+
+text8Card.addEventListener('click', function (event) {
+  event.preventDefault();
+  if (pageId === "homepage") {
+    thesteppe();
+  } else if (pageId === "mideast") {
+    umayyadInfo();
+  } else if (pageId === "europe") {
+    colonizationInfo();
+  }
+});
 
 // function openInca() {
 //   text1Card.setAttribute('style', worldbackground);
