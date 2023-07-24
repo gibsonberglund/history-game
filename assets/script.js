@@ -70,7 +70,7 @@ let parthiaText = "The Parthian Empire (/ˈpɑːrθiən/), also known as the Ars
 let sasaniaText = "The Sasanian Empire (/səˈsɑːniən, səˈseɪniən/), officially known as Eranshahr ('Land/Empire of the Iranians'), was the last Iranian empire before the early Muslim conquests of the 7th–8th centuries AD. Named after the House of Sasan, it endured for over four centuries, from 224 to 651 AD, making it the longest-lived Persian imperial dynasty. The Sasanian Empire succeeded the Parthian Empire, and re-established the Persians as a major power in late antiquity alongside its neighbouring arch-rival, the Roman Empire (after 395 the Byzantine Empire)";
 let umayyadText = "The Umayyad Caliphate (661–750 CE) was the second caliphate established after the death of the Islamic prophet Muhammad. The caliphate was ruled by the Umayyad dynasty, also known as the Umayyads (Arabic: ٱلْأُمَوِيُّون, al-ʾUmawīyūn, or بَنُو أُمَيَّة, Banū ʾUmayya, 'Sons of Umayya'). Uthman ibn Affan (r. 644–656), the third of the Rashidun caliphs, was also a member of the clan. The family established dynastic, hereditary rule with Muawiya ibn Abi Sufyan, long-time governor of Greater Syria, who became caliph after the end of the First Fitna in 661. After Mu'awiya's death in 680, conflicts over the succession resulted in the Second Fitna, and power eventually fell to Marwan I, from another branch of the clan. Syria remained the Umayyads' main power base thereafter, with Damascus as their capital.";
 
-
+let midEastInfoTexts = [mideastPreHistText, sumerText, assyriaText, persiaText, seleucidText, parthiaText, sasaniaText, umayyadText];
 
 //EUROPE
 
@@ -104,14 +104,14 @@ let euroRomeText = "The Roman Empire[a] was the post-Republican state of ancient
 let maintextDisplay = document.querySelector('#maintextdisplay');
 
 let centerPrompt = document.querySelector('#centerprompt');
-let aboutAuthorBtn = document.querySelector('#aboutauthorbtn');
+// let aboutAuthorBtn = document.querySelector('#aboutauthorbtn');
 
 //Author page
-let authorInfo = document.querySelector('#authorinfo'); 
-let authorPage = document.querySelector('#authorpage');
-let profilePic = document.querySelector('#profilepic');
-let contactBtn = document.querySelector('#contactbtn');
-let webDevLink = document.querySelector('#webdevlink');
+// let authorInfo = document.querySelector('#authorinfo'); 
+// let authorPage = document.querySelector('#authorpage');
+// let profilePic = document.querySelector('#profilepic');
+// let contactBtn = document.querySelector('#contactbtn');
+// let webDevLink = document.querySelector('#webdevlink');
 
 
 //create a variable that stores the 'page' id
@@ -207,6 +207,18 @@ function infoDisplay(infoId) {
   };
   centerPrompt.setAttribute('style', 'font-size: 18px;');
   textCards[infoId].setAttribute('class', 'infocard');
+
+  if (pageId === "mideast") {
+    centerPrompt.textContent = midEastInfoTexts[infoId];
+  } else if (pageId === "europe") {
+    centerPrompt.textContent = europeTexts[infoId];
+  }
+
+//TO REFACTOR
+//If else inside of infoDisplay
+//uses pageId to choose correct array
+//uses infoId to itirate to the right position of the array
+
 };
 
 
@@ -239,12 +251,8 @@ text1Card.addEventListener('click', function(event) {
     infoId = 0;
     if (pageId === "homepage") {
       midEast();
-    } else if (pageId === "mideast") {
-      infoDisplay(infoId);
-      centerPrompt.textContent = mideastPreHistText;
-    } else if (pageId === "europe") {
-      infoDisplay(infoId);
-      centerPrompt.textContent = euroPreHistText;
+    } else {
+      infoDisplay(infoId)
     }
 });
 
@@ -253,11 +261,8 @@ text2Card.addEventListener('click', function(event) {
   infoId = 1;
   if (pageId === "homepage") {
     africa();
-  } else if (pageId === "mideast") {
+  } else {
     infoDisplay(infoId);
-    centerPrompt.textContent = sumerText;
-  } else if (pageId === "europe") {
-    minoa();
   }
 });
 
@@ -266,11 +271,13 @@ text3Card.addEventListener('click', function(event) {
   infoId = 2;
   if (pageId === "homepage") {
     eastAsia();
-  } else if (pageId === "mideast") {
+  } else {
     infoDisplay(infoId);
-    centerPrompt.textContent = assyriaText;
-  } else if (pageId === "europe") {
-    euroPreHist();
+    // if (pageId === "mideast") {
+    //   centerPrompt.textContent = assyriaText;
+    // } else if (pageId === "europe") {
+    //   euroPreHist();
+    // }
   }
 });
 
@@ -279,11 +286,13 @@ text4Card.addEventListener('click', function(event) {
   infoId = 3;
   if (pageId === "homepage") {
     centralAsia();
-  } else if (pageId === "mideast") {
-    centerPrompt.textContent = persiaText;
+  } else {
     infoDisplay(infoId);
-  } else if (pageId === "europe") {
-    helenistic();
+    // if (pageId === "mideast") {
+    //   centerPrompt.textContent = persiaText;
+    // } else if (pageId === "europe") {
+    //   helenistic();
+    // }
   }
 });
 
@@ -292,11 +301,13 @@ text5Card.addEventListener('click', function (event) {
   infoId = 4;
   if (pageId === "homepage") {
     europe();
-  } else if (pageId === "mideast") {
-    centerPrompt.textContent = seleucidText;
+  } else {
     infoDisplay(infoId);
-  } else if (pageId === "europe") {
-    romeInfo();
+    // if (pageId === "mideast") {
+    //   centerPrompt.textContent = seleucidText;
+    // } else if (pageId === "europe") {
+    //   romeInfo();
+    // }
   }
 });
 
@@ -305,11 +316,13 @@ text6Card.addEventListener('click', function (event) {
   infoId = 5;
   if (pageId === "homepage") {
     americaInfo();
-  } else if (pageId === "mideast") {
-    centerPrompt.textContent = parthiaText;
+  } else {
     infoDisplay(infoId);
-  } else if (pageId === "europe") {
-    darkageInfo();
+    // if (pageId === "mideast") {
+    //   centerPrompt.textContent = parthiaText;
+    // } else if (pageId === "europe") {
+    //   darkageInfo();
+    // }
   }
 });
 
@@ -318,11 +331,13 @@ text7Card.addEventListener('click', function (event) {
   infoId = 6;
   if (pageId === "homepage") {
     oceania();
-  } else if (pageId === "mideast") {
-    centerPrompt.textContent = sasaniaText;
+  } else {
     infoDisplay(infoId);
-  } else if (pageId === "europe") {
-    medievalInfo();
+    // if (pageId === "mideast") {
+    //   centerPrompt.textContent = sasaniaText;
+    // } else if (pageId === "europe") {
+    //   medievalInfo();
+    // }
   }
 });
 
@@ -331,43 +346,31 @@ text8Card.addEventListener('click', function (event) {
   infoId = 7;
   if (pageId === "homepage") {
     thesteppe();
-  } else if (pageId === "mideast") {
-    centerPrompt.textContent = umayyadText;
+  } else {
     infoDisplay(infoId);
-  } else if (pageId === "europe") {
-    colonizationInfo();
+    // if (pageId === "mideast") {
+    //   centerPrompt.textContent = umayyadText;
+    // } else if (pageId === "europe") {
+    //   colonizationInfo();
+    // }
   }
 });
 
-// function openInca() {
-//   text1Card.setAttribute('style', worldbackground);
-// };
-
-// if (text1.textContent === midtext1) {
-//   window.onclick = function(event) {
-//     if (event.target == text1Card) {
-//       text1Button.setAttribute('class', 'hidden');
-//       aboutButton1.setAttribute('class', 'hidden');
-//       text1.textContent = shorttext1;
-//     }
-//   };
-// };
-
 
 //listens on 'Keep Reading' button
-text1Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal1) {
-        modal1.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
+// text1Button.addEventListener('click', function() {
+//     openModal();
+//     window.onclick = function(event) {
+//       if (event.target == modal1) {
+//         modal1.style.display = "none";
+//         centerPrompt.setAttribute('class', 'inherit');
+//       }
+//     }
+// });
 
-aboutButton1.addEventListener('click', function() {
-  abouttext();
-});
+// aboutButton1.addEventListener('click', function() {
+//   abouttext();
+// });
 
 //textCARD 2
 
