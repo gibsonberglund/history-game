@@ -72,6 +72,40 @@ let umayyadText = "The Umayyad Caliphate (661–750 CE) was the second caliphate
 
 let midEastInfoTexts = [mideastPreHistText, sumerText, assyriaText, persiaText, seleucidText, parthiaText, sasaniaText, umayyadText];
 
+//AFRICA
+let sphinx = "url('./assets/images/africa/sphinx.jpg')";
+let tichitt = "url('./assets/images/africa/dhartichitt.png')";
+let kush = "url('./assets/images/africa/Kush_civilization.jpg')";
+let carthage = "url('./assets/images/africa/Grand-Port-of-Carthage.jpg')";
+let numidia = "url('./assets/images/africa/numidia.png')";
+let aksum = "url('./assets/images/africa/aksum.jpg')";
+let sungbo = "url('./assets/images/africa/SungboEredo.jpg')";
+let songhay = "url('./assets/images/africa/songhay.jpg')";
+
+let africaImgs = [sphinx, tichitt, kush, carthage, numidia, aksum, sungbo, songhay];
+
+let africaDate1 = "Egypt 3000 - 800 B.C.";
+let africaDate2 = "Tichitt culture 2500 - 500 B.C.";
+let africaDate3 = "Kingdom of Kush 1000 B.C. - 500 A.D.";
+let africaDate4 = "Carthage 1000 - 150 B.C.";
+let africaDate5 = "Numidia 200 - 50 B.C.";
+let africaDate6 = "Kingdom of Aksum 150 B.C. - 950 A.D.";
+let africaDate7 = "Oyo (Yoruba) Empire 1300 - 1700 A.D.";
+let africaDate8 = "Songhay Empire 1450 - 1600 A.D.";
+
+let africaDates = [africaDate1, africaDate2, africaDate3, africaDate4, africaDate5, africaDate6, africaDate7, africaDate8];
+
+let egyptText = "Ancient Egypt was a civilization in Northeast Africa situated in the Nile Valley. Ancient Egyptian civilization followed prehistoric Egypt and coalesced around 3100 BC (according to conventional Egyptian chronology) with the political unification of Upper and Lower Egypt under Menes (often identified with Narmer). The history of ancient Egypt occurred as a series of stable kingdoms, separated by periods of relative instability known as Intermediate Periods: the Old Kingdom of the Early Bronze Age, the Middle Kingdom of the Middle Bronze Age and the New Kingdom of the Late Bronze Age.";
+let tichittText = "The Tichitt Culture, or Tichitt Tradition, was created by proto-Mande peoples. In 4000 BCE, the start of sophisticated social structure (e.g., trade of cattle as valued assets) developed among herders amid the Pastoral Period of the Sahara. Saharan pastoral culture (e.g., fields of tumuli, lustrous stone rings, axes) was intricate. By 1800 BCE, Saharan pastoral culture expanded throughout the Saharan and Sahelian regions. The initial stages of sophisticated social structure among Saharan herders served as the segue for the development of sophisticated hierarchies found in African settlements, such as Dhar Tichitt After migrating from the Central Sahara, proto-Mande peoples established their civilization in the Tichitt region of the Western Sahara. The Tichitt Tradition of eastern Mauritania dates from 2200 BCE to 200 BCE.";
+let kushText = "The region of Nubia was an early cradle of civilization, producing several complex societies that engaged in trade and industry. The city-state of Kerma emerged as the dominant political force between 2450 and 1450 BC, controlling the Nile Valley between the first and fourth cataracts, an area as large as Egypt. The Egyptians were the first to identify Kerma as 'Kush' and over the next several centuries the two civilizations engaged in intermittent warfare, trade, and cultural exchange."
+let carthageText = "The Punic people, or Carthaginians, also known as Western Phoenicians, were a Semitic people in the Western Mediterranean who migrated from Tyre, Phoenicia to North Africa during the Early Iron Age. In modern scholarship, the term Punic, the Latin equivalent of the Greek-derived term Phoenician, is exclusively used to refer to Phoenicians in the western Mediterranean, following the line of the Greek East and Latin West.";
+let numidiaText = "Numidia was the ancient kingdom of the Numidians located in northwest Algeria, but later expanding across what is today known as Tunisia, Libya, and some parts of Morocco. Numidia is considered to be the first State of Algeria . The polity was originally divided between the Massylii in the east and the Masaesyli in the west. During the Second Punic War (218–201 BC), Masinissa, king of the Massylii, defeated Syphax of the Masaesyli to unify Numidia into one kingdom. The kingdom began as a sovereign state and later alternated between being a Roman province and a Roman client state.";
+let askumText = "The Kingdom of Aksum (Ge'ez: መንግሥተ አኵስም, Sabaean: 𐩱𐩫𐩪𐩣, Ancient Greek: Ἀξωμίτης), also known as the Kingdom of Axum , the City-State of Axum, or the Aksumite Empire, was centered in Northeast Africa and South Arabia from Classical antiquity to the Middle Ages. Based primarily in what is now northern Ethiopia, and spanning modern-day Eritrea, Djibouti and Sudan, it extended at its height into much of Southern Arabia during the reign of Saint Elesbaan, King of Axum.";
+let yorubaText = "The historical Yoruba develop in ṣitu, out of earlier Mesolithic Volta-Niger populations, by the 1st millennium BCE. Oral history recorded under the Oyo Empire derives the Yoruba as an ethnic group from the population of the older kingdom of Ile-Ife. The Yoruba were the dominant cultural force in southern and northwestern Nigeria as far back as the 11th century";
+let songhayText = "The Songhai Empire (also transliterated as Songhay) was a state located in the western part of the Sahel during the 15th and 16th centuries. At its peak, it was one of the largest African empires in history. The state is known by its historiographical name, derived from its largest ethnic group and ruling elite, the Songhai people. Sonni Ali established Gao as the empire's capital, although a Songhai state had existed in and around Gao since the 11th century. Other important cities in the kingdom were Timbuktu and Djenné, where urban-centred trade flourished; they were conquered in 1468 and 1475, respectively. The Akan state of Bonoman was located to the south of the empire.[3] Initially, the Songhai Empire was ruled by the Sonni dynasty (c. 1464–1493), but it was later replaced by the Askia dynasty (1493–1901).";
+
+let africaTexts = [egyptText, tichittText, kushText, carthageText, numidiaText, askumText, yorubaText, songhayText];
+
 //EUROPE
 
 let stonehenge = "url('./assets/images/europe/stonehenge.jpg')";
@@ -176,6 +210,17 @@ function midEast() {
   };
 };
 
+//AFRICA PAGE
+function africa() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].style.backgroundImage = africaImgs[i];
+    centerPrompt.textContent = "Africa";
+    texts[i].textContent = africaDates[i];
+    pageId = "africa";
+    backgroundImg.setAttribute('class', 'backgroundafrica');
+  };
+};
+
 //EUROPE PAGE
 function europe() {
   for (var i = 0; i < textCards.length; i++) {
@@ -210,6 +255,8 @@ function infoDisplay(infoId) {
 
   if (pageId === "mideast") {
     centerPrompt.textContent = midEastInfoTexts[infoId];
+  } else if (pageId === "africa") {
+    centerPrompt.textContent = africaTexts[infoId];
   } else if (pageId === "europe") {
     centerPrompt.textContent = europeTexts[infoId];
   }

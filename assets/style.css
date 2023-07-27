@@ -24,6 +24,16 @@
   position: fixed;
 }
 
+.backgroundafrica {
+  width: 250%;
+  height: 250%;
+  transform: translate(-1530px, -500px);
+  z-index: -1;
+  margin-top: -1%;
+  transition: 2s;
+  position: fixed;
+}
+
 .backgroundeurope {
   width: 250%;
   height: 250%;
@@ -161,7 +171,7 @@
 #octoBottom {
   display: flex;
   justify-content: center;
-  margin-top: -2%;
+  margin-top: -5%;
 }
 
 .textdisplay {
