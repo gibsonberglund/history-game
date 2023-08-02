@@ -102,9 +102,55 @@ let carthageText = "The Punic people, or Carthaginians, also known as Western Ph
 let numidiaText = "Numidia was the ancient kingdom of the Numidians located in northwest Algeria, but later expanding across what is today known as Tunisia, Libya, and some parts of Morocco. Numidia is considered to be the first State of Algeria . The polity was originally divided between the Massylii in the east and the Masaesyli in the west. During the Second Punic War (218–201 BC), Masinissa, king of the Massylii, defeated Syphax of the Masaesyli to unify Numidia into one kingdom. The kingdom began as a sovereign state and later alternated between being a Roman province and a Roman client state.";
 let askumText = "The Kingdom of Aksum (Ge'ez: መንግሥተ አኵስም, Sabaean: 𐩱𐩫𐩪𐩣, Ancient Greek: Ἀξωμίτης), also known as the Kingdom of Axum , the City-State of Axum, or the Aksumite Empire, was centered in Northeast Africa and South Arabia from Classical antiquity to the Middle Ages. Based primarily in what is now northern Ethiopia, and spanning modern-day Eritrea, Djibouti and Sudan, it extended at its height into much of Southern Arabia during the reign of Saint Elesbaan, King of Axum.";
 let yorubaText = "The historical Yoruba develop in ṣitu, out of earlier Mesolithic Volta-Niger populations, by the 1st millennium BCE. Oral history recorded under the Oyo Empire derives the Yoruba as an ethnic group from the population of the older kingdom of Ile-Ife. The Yoruba were the dominant cultural force in southern and northwestern Nigeria as far back as the 11th century";
-let songhayText = "The Songhai Empire (also transliterated as Songhay) was a state located in the western part of the Sahel during the 15th and 16th centuries. At its peak, it was one of the largest African empires in history. The state is known by its historiographical name, derived from its largest ethnic group and ruling elite, the Songhai people. Sonni Ali established Gao as the empire's capital, although a Songhai state had existed in and around Gao since the 11th century. Other important cities in the kingdom were Timbuktu and Djenné, where urban-centred trade flourished; they were conquered in 1468 and 1475, respectively. The Akan state of Bonoman was located to the south of the empire.[3] Initially, the Songhai Empire was ruled by the Sonni dynasty (c. 1464–1493), but it was later replaced by the Askia dynasty (1493–1901).";
+let songhayText = "The Songhai Empire (also transliterated as Songhay) was a state located in the western part of the Sahel during the 15th and 16th centuries. At its peak, it was one of the largest African empires in history. The state is known by its historiographical name, derived from its largest ethnic group and ruling elite, the Songhai people. Sonni Ali established Gao as the empire's capital, although a Songhai state had existed in and around Gao since the 11th century. Other important cities in the kingdom were Timbuktu and Djenné, where urban-centred trade flourished; they were conquered in 1468 and 1475, respectively. The Akan state of Bonoman was located to the south of the empire. Initially, the Songhai Empire was ruled by the Sonni dynasty (c. 1464–1493), but it was later replaced by the Askia dynasty (1493–1901).";
 
 let africaTexts = [egyptText, tichittText, kushText, carthageText, numidiaText, askumText, yorubaText, songhayText];
+
+//NORTH ASIA
+let northasiaDate1 = "Prehistory and Xia Dynasty 6000 - 1800 B.C.";
+let northasiaDate2 = "Shang Dynasty and Zhou Dynasty 1800 - 600 B.C.";
+let northasiaDate3 = "Han Dynasty 200 B.C. - 200 A.D.";
+let northasiaDate4 = "Three Kingdoms Period of Korea 50 B.C. - 650 A.D.";
+let northasiaDate5 = "Tang Dynasty 600 - 900 A.D.";
+let northasiaDate6 = "Heian Period 800 - 1200 A.D.";
+let northasiaDate7 = "Song Dynasty 950 - 1300 A.D.";
+let northasiaDate8 = "Kamakura Period and Muromachi Period 1200 - 1550 A.D.";
+
+let northasiaDates = [northasiaDate1, northasiaDate2, northasiaDate3, northasiaDate4, northasiaDate5, northasiaDate6, northasiaDate7, northasiaDate8];
+
+let xiaImg = "url('./assets/images/northasia/King_Yu_of_Xia_web.jpg')";
+let shangImg = "url('./assets/images/northasia/elephant.jpg')";
+// let zhou = "url('./assets/images/eastasia/zhou.jpg')";
+// let qin = "url('./assets/images/eastasia/qin.jpg')";
+let hanImg = "url('./assets/images/northasia/han.jpg')";
+let threekingdomsImg = "url(./assets/images/northasia/three-kingdoms.jpg)";
+let tangImg = "url('./assets/images/northasia/tang.jpg')";
+let heainImg = "url('./assets/images/northasia/heian.jpg')";
+let songImg = "url('./assets/images/northasia/song.jpg')";
+let feudalJapanImg = "url('./assets/images/northasia/feudaljapan.jpg')";
+
+let northasiaImgs = [xiaImg, shangImg, hanImg, threekingdomsImg, tangImg, heainImg, songImg, feudalJapanImg];
+
+let xiaText = "The Xia dynasty (Chinese: 夏朝; pinyin: Xiàcháo; Wade–Giles: Hsia4-ch‘ao2) is the first dynasty in traditional Chinese historiography. According to tradition, the Xia dynasty was established by the legendary Yu the Great, after Shun, the last of the Five Emperors, gave the throne to him. In traditional historiography, the Xia was later succeeded by the Shang dynasty.";
+let shangZhouText = "The Shang ruled the plain of the Yellow River in eastern China from the 17th to the 11th century BCE. Their oracle bone script (from c. 1500 BCE) represents the oldest form of Chinese writing yet found[51] and is a direct ancestor of modern Chinese characters. The Shang was conquered by the Zhou, who ruled between the 11th and 5th centuries BCE, though centralized authority was slowly eroded by feudal warlords. Some principalities eventually emerged from the weakened Zhou, no longer fully obeyed the Zhou king, and continually waged war with each other during the 300-year Spring and Autumn period.";
+let hanText = "The Han dynasty emerged to rule China between 206 BCE and CE 220, creating a cultural identity among its populace still remembered in the ethnonym of the Han Chinese. The Han expanded the empire's territory considerably, with military campaigns reaching Central Asia, Mongolia, South Korea, and Yunnan, and the recovery of Guangdong and northern Vietnam from Nanyue. Han involvement in Central Asia and Sogdia helped establish the land route of the Silk Road, replacing the earlier path over the Himalayas to India. Han China gradually became the largest economy of the ancient world.";
+let threeKingdomsText = "The Three Kingdoms of Korea or Samhan (Goguryeo, Baekje and Silla) competed for hegemony over the Korean Peninsula during the ancient period of Korean history. During the Three Kingdoms period (Korean: 삼국시대; Hanja: 三國時代; RR: Samguk-sidae), many states and statelets consolidated until, after Buyeo was annexed in 494 and Gaya was annexed in 562, only three remained on the Korean Peninsula: Goguryeo, Baekje and Silla. The 'Korean Three Kingdoms' (Goguryeo, Baekje and Silla) contributed to what would become Korea; and the Goguryeo, Baekje and Silla peoples became what we know as the Korean people.";
+let tangText = "The Tang capital at Chang'an (present-day Xi'an) was then the world's most populous city. Two censuses of the 7th and 8th centuries estimated the empire's population at about 50 million people, which grew to an estimated 80 million by the dynasty's end. From its numerous subjects, the dynasty raised professional and conscripted armies of hundreds of thousands of troops to contend with nomadic powers for control of Inner Asia and the lucrative trade-routes along the Silk Road. Far-flung kingdoms and states paid tribute to the Tang court, while the Tang also indirectly controlled several regions through a protectorate system. In addition to its political hegemony, the Tang exerted a powerful cultural influence over neighboring East Asian nations such as Japan and Korea.";
+let heainText = "The Heian period (平安時代, Heian jidai) is the last division of classical Japanese history, running from 794 to 1185. It followed the Nara period, beginning when the 50th emperor, Emperor Kammu, moved the capital of Japan to Heian-kyō (modern Kyoto). Heian (平安) means 'peace' in Japanese. It is a period in Japanese history when the Chinese influences were in decline and the national culture matured. The Heian period is also considered the peak of the Japanese imperial court and noted for its art, especially poetry and literature. Two types of Japanese script emerged, including katakana, a phonetic script which was abbreviated into hiragana, both unique alphabets distinctive to Japan. This gave rise to Japan's famous vernacular literature, with many of its texts written by court women who were not as educated in Chinese compared to their male counterparts.";
+let songText = "Technology, science, philosophy, mathematics, and engineering flourished during the Song era. The Song dynasty was the first in world history to issue banknotes or true paper money and the first Chinese government to establish a permanent standing navy. This dynasty saw the first recorded chemical formula of gunpowder, the invention of gunpowder weapons such as fire arrows, bombs, and the fire lance. It also saw the first discernment of true north using a compass, first recorded description of the pound lock, and improved designs of astronomical clocks.";
+let feudalJapanText = "Japan's feudal era was characterized by the emergence and dominance of a ruling class of warriors, the samurai. In 1185, following the defeat of the Taira clan by the Minamoto clan in the Genpei War, samurai Minamoto no Yoritomo established a military government at Kamakura. After Yoritomo's death, the Hōjō clan came to power as regents for the shōgun. The Zen school of Buddhism was introduced from China in the Kamakura period (1185–1333) and became popular among the samurai class. The Kamakura shogunate repelled Mongol invasions in 1274 and 1281 but was eventually overthrown by Emperor Go-Daigo. Go-Daigo was defeated by Ashikaga Takauji in 1336, beginning the Muromachi period (1336–1573). The succeeding Ashikaga shogunate failed to control the feudal warlords (daimyō) and a civil war began in 1467, opening the century-long Sengoku period ('Warring States').";
+
+let northasiaTexts = [xiaText, shangZhouText, hanText, threeKingdomsText, tangText, heainText, songText, feudalJapanText];
+
+//SOUTH ASIA
+let southasiaDate6 = "Khmer Empire 800 - 1400 A.D.";
+let southasiaDate8 = "Majapahit Empire 1300 - 1550 A.D.";
+
+let khmerImg = "url('./assets/images/eastasia/han.jpg')";
+let majapahitImg = "url('./assets/images/eastasia/han.jpg')";
+
+let khmerText = "The Khmer Empire was a Hindu-Buddhist empire in Southeast Asia, centered around hydraulic cities in what is now northern Cambodia. Known as Kambuja by its inhabitants, it grew out of the former civilisation of Chenla and lasted from 802 to 1431. Historians call this period of Cambodian history the Angkor period, after the empire's most well-known capital, Angkor. The Khmer Empire ruled or vassalised most of mainland Southeast Asia and stretched as far north as southern China. At its peak, the Empire was larger than the Byzantine Empire, which existed around the same time.";
+let majahapitText = "Majapahit (Javanese: ꦩꦗꦥꦲꦶꦠ꧀; Javanese pronunciation: [madʒapaɪt]), also known as Wilwatikta (Javanese: ꦮꦶꦭ꧀ꦮꦠꦶꦏ꧀ꦠ; Javanese pronunciation: [wɪlwatɪkta]), was a Javanese Hindu-Buddhist thalassocratic empire in Southeast Asia that was based on the island of Java (in modern-day Indonesia). It existed from 1293 to circa 1527 and reached its peak of glory during the era of Hayam Wuruk, whose reign from 1350 to 1389 was marked by conquests that extended throughout Southeast Asia. His achievement is also credited to his prime minister, Gajah Mada. According to the Nagarakretagama (Desawarñana) written in 1365, Majapahit was an empire of 98 tributaries, stretching from Sumatra to New Guinea";
 
 //EUROPE
 
@@ -221,6 +267,17 @@ function africa() {
   };
 };
 
+//NORTH ASIA PAGE
+function northAsia() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].style.backgroundImage = northasiaImgs[i];
+    centerPrompt.textContent = "North Asia";
+    texts[i].textContent = northasiaDates[i];
+    pageId = "northasia";
+    backgroundImg.setAttribute('class', 'backgroundnorthasia');
+  };
+};
+
 //EUROPE PAGE
 function europe() {
   for (var i = 0; i < textCards.length; i++) {
@@ -257,6 +314,8 @@ function infoDisplay(infoId) {
     centerPrompt.textContent = midEastInfoTexts[infoId];
   } else if (pageId === "africa") {
     centerPrompt.textContent = africaTexts[infoId];
+  } else if (pageId === "northasia") {
+    centerPrompt.textContent = northasiaTexts[infoId];
   } else if (pageId === "europe") {
     centerPrompt.textContent = europeTexts[infoId];
   }
@@ -317,7 +376,7 @@ text3Card.addEventListener('click', function(event) {
   event.preventDefault();
   infoId = 2;
   if (pageId === "homepage") {
-    eastAsia();
+    northAsia();
   } else {
     infoDisplay(infoId);
     // if (pageId === "mideast") {
