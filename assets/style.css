@@ -44,6 +44,16 @@
   position: fixed;
 }
 
+.backgroundsouthasia {
+  width: 250%;
+  height: 250%;
+  transform: translate(-2250px, -550px);
+  z-index: -1;
+  margin-top: -1%;
+  transition: 2s;
+  position: fixed;
+}
+
 .backgroundeurope {
   width: 250%;
   height: 250%;

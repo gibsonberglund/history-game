@@ -54,7 +54,7 @@ let mideastText1 = 'Prehistory 8000 - 3000 B.C.E.';
 let mideastText2 = 'Sumeria 3000 - 2000 B.C.E.';
 let mideastText3 = 'Assyria 2000 - 650 B.C.E.';
 let mideastText4 = 'Persia 650 - 330 B.C.E.';
-let mideastText5 = 'Seleucid 300 - 50 B.C.E.';
+let mideastText5 = 'Helenistic Period 300 - 50 B.C.E.';
 let mideastText6 = 'Parthia 50 B.C.E. - 300 C.E.';
 let mideastText7 = 'Sassania - 300 - 650 C.E.';
 let mideastText8 = 'Umayyad Caliphate 650 - 750 C.E.';
@@ -65,12 +65,12 @@ let mideastPreHistText = "Göbekli Tepe (Turkish: [ɟœbecˈli teˈpe], 'Potbell
 let assyriaText = "Ashur-uballit I was the first native Assyrian ruler to claim the royal title šar ('king'). Shortly after achieving independence, he further claimed the dignity of a great king on the level of the Egyptian pharaohs and the Hittite kings. Assyria's rise was intertwined with the decline and fall of the Mitanni kingdom, its former suzerain, which allowed the early Middle Assyrian kings to expand and consolidate territories in northern Mesopotamia.";
 let sumerText = "Sumer (/ˈsuːmər/) is the earliest known civilization in the historical region of southern Mesopotamia (south-central Iraq), emerging during the Chalcolithic and early Bronze Ages between the sixth and fifth millennium BC. It is one of the cradles of civilization in the world, along with ancient Egypt, Elam, the Caral-Supe civilization, Mesoamerica, the Indus Valley civilisation, and ancient China. Living along the valleys of the Tigris and Euphrates rivers, Sumerian farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Proto-writing dates back to c. 4000 – c. 2500 BC. The earliest texts come from the cities of Uruk and Jemdet Nasr, and date to between c. 3350 – c. 2500 BC.";
 let persiaText = "The Achaemenid Empire or Achaemenian Empire (/əˈkiːmənɪd/; Old Persian: 𐎧𐏁𐏂, Xšāça, lit. 'The Empire' or 'The Kingdom') was the ancient Iranian empire founded by Cyrus the Great in 550 BC, known also as the First Persian Empire. Based in Western Asia, it was the largest empire the world had ever seen at its time, spanning a total of 5.5 million square kilometres (2.1 million square miles) from the Balkans and Egypt in the west to Central Asia and the Indus Valley in the east.";
-let seleucidText = "The Seleucid Empire (/sɪˈljuːsɪd/; Ancient Greek: Βασιλεία τῶν Σελευκιδῶν, romanized: Basileía tōn Seleukidōn, lit. 'Kingdom of the Seleucids') was a Hellenistic power in West Asia. It was founded in 312 BC by the Macedonian general Seleucus I Nicator, following the division of the Macedonian Empire founded by Alexander the Great, and ruled by the Seleucid dynasty until its annexation by the Roman Republic under Pompey in 63 BC."
+let helenisticText = "The period from the death of Alexander the Great in 323 until the death of Cleopatra VII, the last Macedonian ruler of Egypt, is known as the Hellenistic period. In the early part of this period, a new form of kingship developed based on Macedonian and Near Eastern traditions. The first Hellenistic kings were previously Alexander's generals, and took power in the period following his death, though they were not part of existing royal lineages and lacked historic claims to the territories they controlled. The most important of these rulers in the decades after Alexander's death were Antigonus I and his son Demetrius in Macedonia and Greece, Ptolemy in Eygpt, and Seleucus I in Syria and the former Persian empire; smaller Hellenistic kingdoms included the Attalids in Anatolia and the Greco-Bactrian kingdom.";
 let parthiaText = "The Parthian Empire (/ˈpɑːrθiən/), also known as the Arsacid Empire (/ˈɑːrsəsɪd/), was a major Iranian political and cultural power in ancient Iran from 247 BC to 224 AD. Its latter name comes from its founder, Arsaces I,who led the Parni tribe in conquering the region of Parthia in Iran's northeast, then a satrapy (province) under Andragoras, who was rebelling against the Seleucid Empire. Mithridates I (r. c. 171 – 132 BC) greatly expanded the empire by seizing Media and Mesopotamia from the Seleucids. At its height, the Parthian Empire stretched from the northern reaches of the Euphrates, in what is now central-eastern Turkey, to present-day Afghanistan and western Pakistan. The empire, located on the Silk Road trade route between the Roman Empire in the Mediterranean Basin and the Han dynasty of China, became a center of trade and commerce.";
 let sasaniaText = "The Sasanian Empire (/səˈsɑːniən, səˈseɪniən/), officially known as Eranshahr ('Land/Empire of the Iranians'), was the last Iranian empire before the early Muslim conquests of the 7th–8th centuries AD. Named after the House of Sasan, it endured for over four centuries, from 224 to 651 AD, making it the longest-lived Persian imperial dynasty. The Sasanian Empire succeeded the Parthian Empire, and re-established the Persians as a major power in late antiquity alongside its neighbouring arch-rival, the Roman Empire (after 395 the Byzantine Empire)";
 let umayyadText = "The Umayyad Caliphate (661–750 CE) was the second caliphate established after the death of the Islamic prophet Muhammad. The caliphate was ruled by the Umayyad dynasty, also known as the Umayyads (Arabic: ٱلْأُمَوِيُّون, al-ʾUmawīyūn, or بَنُو أُمَيَّة, Banū ʾUmayya, 'Sons of Umayya'). Uthman ibn Affan (r. 644–656), the third of the Rashidun caliphs, was also a member of the clan. The family established dynastic, hereditary rule with Muawiya ibn Abi Sufyan, long-time governor of Greater Syria, who became caliph after the end of the First Fitna in 661. After Mu'awiya's death in 680, conflicts over the succession resulted in the Second Fitna, and power eventually fell to Marwan I, from another branch of the clan. Syria remained the Umayyads' main power base thereafter, with Damascus as their capital.";
 
-let midEastInfoTexts = [mideastPreHistText, sumerText, assyriaText, persiaText, seleucidText, parthiaText, sasaniaText, umayyadText];
+let midEastInfoTexts = [mideastPreHistText, sumerText, assyriaText, persiaText, helenisticText, parthiaText, sasaniaText, umayyadText];
 
 //AFRICA
 let sphinx = "url('./assets/images/africa/sphinx.jpg')";
@@ -143,14 +143,38 @@ let feudalJapanText = "Japan's feudal era was characterized by the emergence and
 let northasiaTexts = [xiaText, shangZhouText, hanText, threeKingdomsText, tangText, heainText, songText, feudalJapanText];
 
 //SOUTH ASIA
-let southasiaDate6 = "Khmer Empire 800 - 1400 A.D.";
+let southasiaDate1 = "Indus Valley Civilization 2500 - 2000 B.C.";
+let southasiaDate2 = "Vedic Period 1500 - 500 B.C.";
+let southasiaDate3 = "Maurya Empire 300 B.C. - 200 A.D.";
+let southasiaDate4 = "Gupta Empire 300 - 500 A.D.";
+let southasiaDate5 = "Mataram Kingdom 700 - 1000 A.D.";
+let southasiaDate6 = "Medieval India 600 - 1400 A.D.";
+let southasiaDate7 = "Khmer Empire 800 - 1400 A.D.";
 let southasiaDate8 = "Majapahit Empire 1300 - 1550 A.D.";
 
-let khmerImg = "url('./assets/images/eastasia/han.jpg')";
-let majapahitImg = "url('./assets/images/eastasia/han.jpg')";
+let southasiaDates = [southasiaDate1, southasiaDate2, southasiaDate3, southasiaDate4, southasiaDate5, southasiaDate6, southasiaDate7, southasiaDate8];
 
-let khmerText = "The Khmer Empire was a Hindu-Buddhist empire in Southeast Asia, centered around hydraulic cities in what is now northern Cambodia. Known as Kambuja by its inhabitants, it grew out of the former civilisation of Chenla and lasted from 802 to 1431. Historians call this period of Cambodian history the Angkor period, after the empire's most well-known capital, Angkor. The Khmer Empire ruled or vassalised most of mainland Southeast Asia and stretched as far north as southern China. At its peak, the Empire was larger than the Byzantine Empire, which existed around the same time.";
+let indusImg = "url('./assets/images/southasia/indus.jpg')";
+let vedicImg = "url('./assets/images/southasia/vedic.gif')";
+let mauryaImg = "url('./assets/images/southasia/mauryan.jpg')";
+let guptaImg = "url('./assets/images/southasia/gupta.jpg')";
+let mataramImg = "url('./assets/images/southasia/mataram.jpeg')";
+let medIndiaImg = "url('./assets/images/southasia/medIndia.jpg')";
+let khmerImg = "url('./assets/images/southasia/angkor.jpg')";
+let majapahitImg = "url('./assets/images/southasia/majapahit.jpg')";
+
+let southasiaImgs = [indusImg, vedicImg, mauryaImg, guptaImg, mataramImg, medIndiaImg, khmerImg, majapahitImg];
+
+let indusText = "The cities of the ancient Indus were noted for their urban planning, baked brick houses, elaborate drainage systems, water supply systems, clusters of large non-residential buildings, and techniques of handicraft and metallurgy. Mohenjo-daro and Harappa very likely grew to contain between 30,000 and 60,000 individuals, and the civilisation may have contained between one and five million individuals during its florescence. A gradual drying of the region during the 3rd millennium BCE may have been the initial stimulus for its urbanisation. Eventually it also reduced the water supply enough to cause the civilisation's demise and to disperse its population to the east.";
+let vedicText = "The second half of the Vedic period was characterised by the emergence of towns, kingdoms, and a complex social differentiation distinctive to India, and the Kuru Kingdom's codification of orthodox sacrificial ritual. During this time, the central Ganges Plain was dominated by a related but non-Vedic Indo-Aryan culture, of Greater Magadha. The end of the Vedic period witnessed the rise of true cities and large states (called mahajanapadas) as well as śramaṇa movements (including Jainism and Buddhism) which challenged the Vedic orthodoxy.";
+let mauryaText = "Under the Mauryas, internal and external trade, agriculture, and economic activities thrived and expanded across South Asia due to the creation of a single and efficient system of finance, administration, and security. The Maurya dynasty built a precursor of the Grand Trunk Road from Patliputra to Taxila. After the Kalinga War, the Empire experienced nearly half a century of centralized rule under Ashoka. Ashoka's embrace of Buddhism and sponsorship of Buddhist missionaries allowed for the expansion of that faith into Sri Lanka, northwest India, and Central Asia.";
+let guptaText = "The high points of this period are the great cultural developments which took place primarily during the reigns of Samudragupta, Chandragupta II and Kumaragupta I. Many Hindu epics and literary sources, such as Mahabharata and Ramayana, were canonised during this period. The Gupta period produced scholars such as Kalidasa, Aryabhata, Varahamihira and Vatsyayana, who made great advancements in many academic fields. Science and political administration reached new heights during the Gupta era. The period, sometimes described as Pax Gupta, gave rise to achievements in architecture, sculpture, and painting that 'set standards of form and taste [that] determined the whole subsequent course of art, not only in India but far beyond her borders'.";
+let mataramText = "In the period between the late 8th century and the mid-9th century, the kingdom saw the blossoming of classical Javanese art and architecture reflected in the rapid growth of temple construction. Temples dotted the landscape of its heartland in Mataram. The most notable of the temples constructed in Mataram are Kalasan, Sewu, Borobudur and Prambanan, all quite close to present-day city of Yogyakarta. At its peak, the kingdom had become a dominant empire that exercised its power—not only in Java, but also in Sumatra, Bali, southern Thailand, Indianized kingdoms of the Philippines, and the Khmer in Cambodia.";
+let medIndiText = "Indian royalty, big and small, and the temples they patronised drew citizens in great numbers to the capital cities, which became economic hubs as well. Temple towns of various sizes began to appear everywhere as India underwent another urbanisation. By the 8th and 9th centuries, the effects were felt in South-East Asia, as South Indian culture and political systems were exported to lands that became part of modern-day Myanmar, Thailand, Laos, Brunei, Cambodia, Vietnam, Philippines, Malaysia, and Indonesia. Indian merchants, scholars, and sometimes armies were involved in this transmission; South-East Asians took the initiative as well, with many sojourning in Indian seminaries and translating Buddhist and Hindu texts into their languages.";
+let khmerText = "The site of Angkor is perhaps the empire's most notable legacy, as it was the capital during the empire's zenith. The majestic monuments of Angkor, such as Angkor Wat and Bayon, bear testimony to the Khmer Empire's immense power and wealth, impressive art and culture, architectural technique, aesthetic achievements, and variety of belief systems that it patronised over time. Satellite imaging has revealed that Angkor, during its peak in the 11th to the 13th centuries, was the most extensive pre-industrial urban complex in the world. Researchers have also concluded that the Khmer Empire invented the world's first healthcare system, which included 102 hospitals.";
 let majahapitText = "Majapahit (Javanese: ꦩꦗꦥꦲꦶꦠ꧀; Javanese pronunciation: [madʒapaɪt]), also known as Wilwatikta (Javanese: ꦮꦶꦭ꧀ꦮꦠꦶꦏ꧀ꦠ; Javanese pronunciation: [wɪlwatɪkta]), was a Javanese Hindu-Buddhist thalassocratic empire in Southeast Asia that was based on the island of Java (in modern-day Indonesia). It existed from 1293 to circa 1527 and reached its peak of glory during the era of Hayam Wuruk, whose reign from 1350 to 1389 was marked by conquests that extended throughout Southeast Asia. His achievement is also credited to his prime minister, Gajah Mada. According to the Nagarakretagama (Desawarñana) written in 1365, Majapahit was an empire of 98 tributaries, stretching from Sumatra to New Guinea";
+
+let southasiaTexts = [indusText, vedicText, mauryaText, guptaText, mataramText, medIndiText, khmerText, majahapitText];
 
 //EUROPE
 
@@ -165,14 +189,25 @@ let rennaisance = "url('./assets/images/europe/ships.jpg')";
 
 let europeImgs = [stonehenge, minoa, athens, macedon, rome, viking, medieval, rennaisance];
 
-let europeText1 = 'Prehistory 8000 - 3000 B.C.';
-let europeText2 = 'Minoa and Mycenae 2000 - 1300 B.C.';
-let europeText3 = 'Penelopesian States 800 - 330 B.C.';
-let europeText4 = 'Helenistic Period 330 - 50 B.C.';
-let europeText5 = 'Roman Republic and Empire 250 B.C. - 400 A.D.';
-let europeText6 = 'The Dark Age 500 - 1000 A.D.';
-let europeText7 = 'Medieval Age 1000 - 1500 A.D.';
-let europeText8 = 'Age Of Exploration 1500 - 1800 A.D.';
+let europeDate1 = 'Prehistory 8000 - 3000 B.C.';
+let europeDate2 = 'Minoa and Mycenae 2000 - 1300 B.C.';
+let europeDate3 = 'Classical Greece 500 - 300 B.C.';
+let europeDate4 = 'Roman Republic and Empire 250 B.C. - 500 A.D.';
+let europeDate5 = 'Eastern Roman Empire 400 - 1500 A.D.';
+let europeDate6 = 'Merovingian Dynasty 400 - 750 A.D.';
+let europeDate7 = 'Anglo-Saxon British Isles 400 - 1050 A.D.';
+let europeDate8 = 'Kingdom of France 1200 - 1800 A.D.';
+
+let europeDates = [europeDate1, europeDate2, europeDate3, europeDate4, europeDate5, europeDate6, europeDate7, europeDate8];
+
+let beakerText = "In its mature phase, the Bell Beaker culture is understood as not only a collection of characteristic artefact types, but a complex cultural phenomenon involving metalwork in copper and gold, long-distance exchange networks, archery, specific types of ornamentation, and (presumably) shared ideological, cultural and religious ideas, as well as social stratification and the emergence of regional elites.";
+let minoanText = "The Minoans built large, complex palaces up to four stories high, featuring elaborate plumbing systems and decorated with frescoes. The largest Minoan palace is that of Knossos, followed by that of Phaistos. The function of the palaces, like most aspects of Minoan governance and religion, remains unclear. The Minoan period saw extensive trade by Crete with Aegean and Mediterranean settlements, particularly those in the Near East. Through traders and artists, Minoan cultural influence reached beyond Crete to the Cyclades, the Old Kingdom of Egypt, copper-bearing Cyprus, Canaan and the Levantine coast and Anatolia.";
+let greeceText = "Classical Greece was a period of around 200 years (the 5th and 4th centuries BC) in Ancient Greece, marked by much of the eastern Aegean and northern regions of Greek culture (such as Ionia and Macedonia) gaining increased autonomy from the Persian Empire; the peak flourishing of democratic Athens; the First and Second Peloponnesian Wars; the Spartan and then Theban hegemonies; and the expansion of Macedonia under Philip II. Much of the early defining politics, artistic thought (architecture, sculpture), scientific thought, theatre, literature and philosophy of Western civilization derives from this period of Greek history, which had a powerful influence on the later Roman Empire.";
+let romeText = "";
+let eastRomeText = "The Byzantine Empire, also referred to as the Eastern Roman Empire, was the continuation of the Roman Empire primarily in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople. It survived the fall of the Western Roman Empire in the 5th century AD and continued to exist until the fall of Constantinople to the Ottoman Empire in 1453. During most of its existence, the empire remained the most powerful economic, cultural, and military force in the Mediterranean world. Its citizens continued to refer to their empire as the Roman Empire and to themselves as Romans—a term which Greeks continued to use for themselves into Ottoman times. Modern historians distinguish the Byzantine Empire from the earlier Roman Empire due to the imperial seat moving from Rome to Byzantium, the Empire's integration of Christianity, and the predominance of Greek instead of Latin.";
+let merovingianText = "The Merovingian dynasty (/ˌmɛrəˈvɪndʒiən/) was the ruling family of the Franks from the middle of the 5th century until 751. They first appear as 'Kings of the Franks' in the Roman army of northern Gaul. By 509 they had united all the Franks and northern Gallo-Romans under their rule. They conquered most of Gaul, defeating the Visigoths and the Burgundians, and also extended their rule into Raetia. In Germania, the Alemanni, Bavarii and Saxons accepted their lordship. The Merovingian realm was the largest and most powerful of the states of western Europe following the breaking up of the empire of Theodoric the Great.";
+let medievalEuroText = "";
+let colonialText = "";
 
 let europeTexts = [europeText1, europeText2, europeText3, europeText4, europeText5, europeText6, europeText7, europeText8];
 
@@ -278,6 +313,17 @@ function northAsia() {
   };
 };
 
+//SOUTH ASIA PAGE
+function southAsia() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].style.backgroundImage = southasiaImgs[i];
+    centerPrompt.textContent = "South Asia";
+    texts[i].textContent = southasiaDates[i];
+    pageId = "southasia";
+    backgroundImg.setAttribute('class', 'backgroundsouthasia');
+  };
+}
+
 //EUROPE PAGE
 function europe() {
   for (var i = 0; i < textCards.length; i++) {
@@ -316,6 +362,8 @@ function infoDisplay(infoId) {
     centerPrompt.textContent = africaTexts[infoId];
   } else if (pageId === "northasia") {
     centerPrompt.textContent = northasiaTexts[infoId];
+  } else if (pageId === "southasia") {
+    centerPrompt.textContent = southasiaTexts[infoId];
   } else if (pageId === "europe") {
     centerPrompt.textContent = europeTexts[infoId];
   }
@@ -391,7 +439,7 @@ text4Card.addEventListener('click', function(event) {
   event.preventDefault();
   infoId = 3;
   if (pageId === "homepage") {
-    centralAsia();
+    southAsia();
   } else {
     infoDisplay(infoId);
     // if (pageId === "mideast") {
