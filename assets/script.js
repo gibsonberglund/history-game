@@ -1,13 +1,3 @@
-//Middle East
-//Africa
-//East Asia
-//Central Asia
-//Europe
-//Americas
-//Oceania
-//The Steppe
-
-
 let siteTitle = document.querySelector('#sitetitle');
 
 let backgroundImg = document.querySelector('#backgroundimg');
@@ -30,11 +20,11 @@ let homePageThumbs = [mideastThumb, africaThumb, eastAsiaThumb, centralAsiaThumb
 let shorttext1 = `Middle East`;
 let shorttext2 = `Africa`;
 let shorttext3 = `East Asia`;
-let shorttext4 = `Central Asia`;
+let shorttext4 = `South Asia`;
 let shorttext5 = `Europe`;
 let shorttext6 = `Americas`;
-let shorttext7 = `Oceania`;
-let shorttext8 = `The Steppe`;
+let shorttext7 = `Coming Soon`;
+let shorttext8 = `Coming Soon`;
 
 //MIDDLE EAST
 
@@ -107,29 +97,29 @@ let songhayText = "The Songhai Empire (also transliterated as Songhay) was a sta
 let africaTexts = [egyptText, tichittText, kushText, carthageText, numidiaText, askumText, yorubaText, songhayText];
 
 //NORTH ASIA
-let northasiaDate1 = "Prehistory and Xia Dynasty 6000 - 1800 B.C.";
-let northasiaDate2 = "Shang Dynasty and Zhou Dynasty 1800 - 600 B.C.";
-let northasiaDate3 = "Han Dynasty 200 B.C. - 200 A.D.";
-let northasiaDate4 = "Three Kingdoms Period of Korea 50 B.C. - 650 A.D.";
-let northasiaDate5 = "Tang Dynasty 600 - 900 A.D.";
-let northasiaDate6 = "Heian Period 800 - 1200 A.D.";
-let northasiaDate7 = "Song Dynasty 950 - 1300 A.D.";
-let northasiaDate8 = "Kamakura Period and Muromachi Period 1200 - 1550 A.D.";
+let eastasiaDate1 = "Prehistory and Xia Dynasty 6000 - 1800 B.C.";
+let eastasiaDate2 = "Shang Dynasty and Zhou Dynasty 1800 - 600 B.C.";
+let eastasiaDate3 = "Han Dynasty 200 B.C. - 200 A.D.";
+let eastasiaDate4 = "Three Kingdoms Period of Korea 50 B.C. - 650 A.D.";
+let eastasiaDate5 = "Tang Dynasty 600 - 900 A.D.";
+let eastasiaDate6 = "Heian Period 800 - 1200 A.D.";
+let eastasiaDate7 = "Song Dynasty 950 - 1300 A.D.";
+let eastasiaDate8 = "Kamakura Period and Muromachi Period 1200 - 1550 A.D.";
 
-let northasiaDates = [northasiaDate1, northasiaDate2, northasiaDate3, northasiaDate4, northasiaDate5, northasiaDate6, northasiaDate7, northasiaDate8];
+let eastasiaDates = [eastasiaDate1, eastasiaDate2, eastasiaDate3, eastasiaDate4, eastasiaDate5, eastasiaDate6, eastasiaDate7, eastasiaDate8];
 
-let xiaImg = "url('./assets/images/northasia/King_Yu_of_Xia_web.jpg')";
-let shangImg = "url('./assets/images/northasia/elephant.jpg')";
+let xiaImg = "url('./assets/images/eastasia/King_Yu_of_Xia_web.jpg')";
+let shangImg = "url('./assets/images/eastasia/elephant.jpg')";
 // let zhou = "url('./assets/images/eastasia/zhou.jpg')";
 // let qin = "url('./assets/images/eastasia/qin.jpg')";
-let hanImg = "url('./assets/images/northasia/han.jpg')";
-let threekingdomsImg = "url(./assets/images/northasia/three-kingdoms.jpg)";
-let tangImg = "url('./assets/images/northasia/tang.jpg')";
-let heainImg = "url('./assets/images/northasia/heian.jpg')";
-let songImg = "url('./assets/images/northasia/song.jpg')";
-let feudalJapanImg = "url('./assets/images/northasia/feudaljapan.jpg')";
+let hanImg = "url('./assets/images/eastasia/han.jpg')";
+let threekingdomsImg = "url(./assets/images/eastasia/three-kingdoms.jpg)";
+let tangImg = "url('./assets/images/eastasia/tang.jpg')";
+let heainImg = "url('./assets/images/eastasia/heian.jpg')";
+let songImg = "url('./assets/images/eastasia/song.jpg')";
+let feudalJapanImg = "url('./assets/images/eastasia/feudaljapan.jpg')";
 
-let northasiaImgs = [xiaImg, shangImg, hanImg, threekingdomsImg, tangImg, heainImg, songImg, feudalJapanImg];
+let eastasiaImgs = [xiaImg, shangImg, hanImg, threekingdomsImg, tangImg, heainImg, songImg, feudalJapanImg];
 
 let xiaText = "The Xia dynasty (Chinese: 夏朝; pinyin: Xiàcháo; Wade–Giles: Hsia4-ch‘ao2) is the first dynasty in traditional Chinese historiography. According to tradition, the Xia dynasty was established by the legendary Yu the Great, after Shun, the last of the Five Emperors, gave the throne to him. In traditional historiography, the Xia was later succeeded by the Shang dynasty.";
 let shangZhouText = "The Shang ruled the plain of the Yellow River in eastern China from the 17th to the 11th century BCE. Their oracle bone script (from c. 1500 BCE) represents the oldest form of Chinese writing yet found[51] and is a direct ancestor of modern Chinese characters. The Shang was conquered by the Zhou, who ruled between the 11th and 5th centuries BCE, though centralized authority was slowly eroded by feudal warlords. Some principalities eventually emerged from the weakened Zhou, no longer fully obeyed the Zhou king, and continually waged war with each other during the 300-year Spring and Autumn period.";
@@ -140,7 +130,7 @@ let heainText = "The Heian period (平安時代, Heian jidai) is the last divisi
 let songText = "Technology, science, philosophy, mathematics, and engineering flourished during the Song era. The Song dynasty was the first in world history to issue banknotes or true paper money and the first Chinese government to establish a permanent standing navy. This dynasty saw the first recorded chemical formula of gunpowder, the invention of gunpowder weapons such as fire arrows, bombs, and the fire lance. It also saw the first discernment of true north using a compass, first recorded description of the pound lock, and improved designs of astronomical clocks.";
 let feudalJapanText = "Japan's feudal era was characterized by the emergence and dominance of a ruling class of warriors, the samurai. In 1185, following the defeat of the Taira clan by the Minamoto clan in the Genpei War, samurai Minamoto no Yoritomo established a military government at Kamakura. After Yoritomo's death, the Hōjō clan came to power as regents for the shōgun. The Zen school of Buddhism was introduced from China in the Kamakura period (1185–1333) and became popular among the samurai class. The Kamakura shogunate repelled Mongol invasions in 1274 and 1281 but was eventually overthrown by Emperor Go-Daigo. Go-Daigo was defeated by Ashikaga Takauji in 1336, beginning the Muromachi period (1336–1573). The succeeding Ashikaga shogunate failed to control the feudal warlords (daimyō) and a civil war began in 1467, opening the century-long Sengoku period ('Warring States').";
 
-let northasiaTexts = [xiaText, shangZhouText, hanText, threeKingdomsText, tangText, heainText, songText, feudalJapanText];
+let eastasiaTexts = [xiaText, shangZhouText, hanText, threeKingdomsText, tangText, heainText, songText, feudalJapanText];
 
 //SOUTH ASIA
 let southasiaDate1 = "Indus Valley Civilization 2500 - 2000 B.C.";
@@ -194,46 +184,64 @@ let europeDate2 = 'Minoa and Mycenae 2000 - 1300 B.C.';
 let europeDate3 = 'Classical Greece 500 - 300 B.C.';
 let europeDate4 = 'Roman Republic and Empire 250 B.C. - 500 A.D.';
 let europeDate5 = 'Eastern Roman Empire 400 - 1500 A.D.';
-let europeDate6 = 'Merovingian Dynasty 400 - 750 A.D.';
-let europeDate7 = 'Anglo-Saxon British Isles 400 - 1050 A.D.';
-let europeDate8 = 'Kingdom of France 1200 - 1800 A.D.';
+let europeDate6 = 'Early Middle Ages 500 - 1000 A.D.';
+let europeDate7 = 'High Middle Ages 1000 - 1400 A.D.';
+let europeDate8 = 'Rennaisance 1400 - 1700 A.D.';
 
 let europeDates = [europeDate1, europeDate2, europeDate3, europeDate4, europeDate5, europeDate6, europeDate7, europeDate8];
 
 let beakerText = "In its mature phase, the Bell Beaker culture is understood as not only a collection of characteristic artefact types, but a complex cultural phenomenon involving metalwork in copper and gold, long-distance exchange networks, archery, specific types of ornamentation, and (presumably) shared ideological, cultural and religious ideas, as well as social stratification and the emergence of regional elites.";
 let minoanText = "The Minoans built large, complex palaces up to four stories high, featuring elaborate plumbing systems and decorated with frescoes. The largest Minoan palace is that of Knossos, followed by that of Phaistos. The function of the palaces, like most aspects of Minoan governance and religion, remains unclear. The Minoan period saw extensive trade by Crete with Aegean and Mediterranean settlements, particularly those in the Near East. Through traders and artists, Minoan cultural influence reached beyond Crete to the Cyclades, the Old Kingdom of Egypt, copper-bearing Cyprus, Canaan and the Levantine coast and Anatolia.";
 let greeceText = "Classical Greece was a period of around 200 years (the 5th and 4th centuries BC) in Ancient Greece, marked by much of the eastern Aegean and northern regions of Greek culture (such as Ionia and Macedonia) gaining increased autonomy from the Persian Empire; the peak flourishing of democratic Athens; the First and Second Peloponnesian Wars; the Spartan and then Theban hegemonies; and the expansion of Macedonia under Philip II. Much of the early defining politics, artistic thought (architecture, sculpture), scientific thought, theatre, literature and philosophy of Western civilization derives from this period of Greek history, which had a powerful influence on the later Roman Empire.";
-let romeText = "";
+let romeText = "The Roman Empire was the post-Republican state of ancient Rome. It included territory around the Mediterranean in Europe, North Africa, and Western Asia, and was ruled by emperors. The adoption of Christianity as the state church in 380 and the fall of the Western Roman Empire conventionally marks the end of classical antiquity and the beginning of the Middle Ages.";
 let eastRomeText = "The Byzantine Empire, also referred to as the Eastern Roman Empire, was the continuation of the Roman Empire primarily in its eastern provinces during Late Antiquity and the Middle Ages, when its capital city was Constantinople. It survived the fall of the Western Roman Empire in the 5th century AD and continued to exist until the fall of Constantinople to the Ottoman Empire in 1453. During most of its existence, the empire remained the most powerful economic, cultural, and military force in the Mediterranean world. Its citizens continued to refer to their empire as the Roman Empire and to themselves as Romans—a term which Greeks continued to use for themselves into Ottoman times. Modern historians distinguish the Byzantine Empire from the earlier Roman Empire due to the imperial seat moving from Rome to Byzantium, the Empire's integration of Christianity, and the predominance of Greek instead of Latin.";
-let merovingianText = "The Merovingian dynasty (/ˌmɛrəˈvɪndʒiən/) was the ruling family of the Franks from the middle of the 5th century until 751. They first appear as 'Kings of the Franks' in the Roman army of northern Gaul. By 509 they had united all the Franks and northern Gallo-Romans under their rule. They conquered most of Gaul, defeating the Visigoths and the Burgundians, and also extended their rule into Raetia. In Germania, the Alemanni, Bavarii and Saxons accepted their lordship. The Merovingian realm was the largest and most powerful of the states of western Europe following the breaking up of the empire of Theodoric the Great.";
-let medievalEuroText = "";
-let colonialText = "";
+let earlyMidText = "From around 780, Europe saw the last of the barbarian invasions and became more socially and politically organized. The Carolingian Renaissance stimulated scientific and philosophical activity in Northern Europe. The first universities started operating in Bologna, Oxford, Paris, Salamanca, Cambridge and Modena. The Vikings settled in the British Isles, France and elsewhere, and Norse Christian kingdoms started developing in their Scandinavian homelands. The Magyars ceased their expansion in the 10th century, and by the year 1000, a Christian Kingdom of Hungary had become a recognized state in Central Europe that was forming alliances with regional powers.";
+let highMidText = "The High Middle Ages produced many different forms of intellectual, spiritual and artistic works. The age also saw the rise of ethnocentrism, which evolved later into modern national identities in most of Europe, the ascent of the great Italian city-states and the rise and fall of the Islamic civilization of Al-Andalus. The rediscovery of the works of Aristotle, at first indirectly through medieval Jewish and Islamic philosophy, led Maimonides, Ibn Sina, Ibn Rushd, Thomas Aquinas and other thinkers of the period to expand Scholasticism, a combination of Judeo-Islamic and Catholic ideologies with the ancient philosophy. For much of this period, Constantinople remained Europe's most populous city, and Byzantine art reached a peak in the 12th century. In architecture, many of the most notable Gothic cathedrals were built or completed around this period.";
+let rennaisanceText = "As a cultural movement, the Renaissance encompassed innovative flowering of Latin and vernacular literatures, beginning with the 14th-century resurgence of learning based on classical sources, which contemporaries credited to Petrarch; the development of linear perspective and other techniques of rendering a more natural reality in painting; and gradual but widespread educational reform. In politics, the Renaissance contributed to the development of the customs and conventions of diplomacy, and in science to an increased reliance on observation and inductive reasoning. Although the Renaissance saw revolutions in many intellectual and social scientific pursuits, as well as the introduction of modern banking and the field of accounting, it is perhaps best known for its artistic developments and the contributions of such polymaths as Leonardo da Vinci and Michelangelo, who inspired the term 'Renaissance man'.";
 
-let europeTexts = [europeText1, europeText2, europeText3, europeText4, europeText5, europeText6, europeText7, europeText8];
+let europeTexts = [beakerText, minoanText, greeceText, romeText, eastRomeText, earlyMidText, highMidText, rennaisanceText];
 
-let euroPreHistText = "The New Stone Age, or Neolithic era, began with the introduction of farming, ultimately from the Middle East, around 4000 BC. It is not known whether this was caused by a substantial folk movement or native adoption of foreign practices or both. People began to lead a more settled lifestyle. Monumental collective tombs were built for the dead in the form of chambered cairns and long barrows. Towards the end of the period, other kinds of monumental stone alignments begin to appear, such as Stonehenge; their cosmic alignments show a preoccupation with the sky and planets. Flint technology produced a number of highly artistic pieces as well as purely pragmatic. More extensive woodland clearance was done for fields and pastures. The Sweet Track in the Somerset Levels is one of the oldest timber trackways known in Northern Europe and among the oldest roads in the world, dated by dendrochronology to the winter of 3807–3806 BC; it too is thought to have been a primarily religious structure.[7] Archaeological evidence from North Yorkshire indicates that salt was being manufactured there in the Neolithic.[9]";
+//AMERICAS
+let olmecImg = "url('./assets/images/americas/olmec.jpg')";
+let nazcaImg = "url('./assets/images/americas/nazca.jpg')";
+let tiwanakuImg = "url('./assets/images/americas/tiwanaku.jpg')";
+let mayaImg = "url('./assets/images/americas/mayan.jpg')";
+let teotihuacanImg = "url('./assets/images/americas/teotihuacan.jpg')";
+let cahokiaImg = "url('./assets/images/americas/cahokia.jpg')";
+let aztecImg = "url('./assets/images/americas/aztec.jpg')";
+let incaImg = "url('./assets/images/americas/inca.jpg')";
 
-let euroRomeText = "The Roman Empire[a] was the post-Republican state of ancient Rome. It included territory around the Mediterranean in Europe, North Africa, and Western Asia, and was ruled by emperors. The adoption of Christianity as the state church in 380 and the fall of the Western Roman Empire conventionally marks the end of classical antiquity and the beginning of the Middle Ages.";
+let americasImgs = [olmecImg, nazcaImg, teotihuacanImg, tiwanakuImg, mayaImg, cahokiaImg, aztecImg, incaImg];
+
+let olmecDate = "Olmec Civilization 1600 - 400 B.C.";
+let nazcaDate = "Nazca Culture 100 B.C. - 800 A.D.";
+let teotihuacanDate = "Teotihuacan 100 B.C. - 500 A.D.";
+let tiwanakuDate = "Tiwanaku 100 - 1000 A.D.";
+let mayaDate = "Maya Civilization 250 - 1700 A.D.";
+let cahokiaDate = "Cahokia 1050 - 1350 A.D.";
+let aztecDate = "Aztec Civilization 1300 - 1500 A.D.";
+let incaDate = "Inca Empire 1450 - 1550 A.D.";
+
+let americasDates = [olmecDate, nazcaDate, teotihuacanDate, tiwanakuDate, mayaDate, cahokiaDate, aztecDate, incaDate];
+
+let olmecText = "The Olmecs flourished during Mesoamerica's formative period, dating roughly from as early as 1500 BCE to about 400 BCE. Pre-Olmec cultures had flourished since about 2500 BCE, but by 1600–1500 BCE, early Olmec culture had emerged, centered on the San Lorenzo Tenochtitlán site near the coast in southeast Veracruz. They were the first Mesoamerican civilization, and laid many of the foundations for the civilizations that followed. Among other 'firsts', the Olmec appeared to practice ritual bloodletting and played the Mesoamerican ballgame, hallmarks of nearly all subsequent Mesoamerican societies. The aspect of the Olmecs most familiar now is their artwork, particularly the aptly named 'colossal heads'.";
+let nazcaText = "The Nazca culture (also Nasca) was the archaeological culture that flourished from c. 100 BC to 800 AD beside the arid, southern coast of Peru in the river valleys of the Rio Grande de Nazca drainage and the Ica Valley. Strongly influenced by the preceding Paracas culture, which was known for extremely complex textiles, the Nazca produced an array of crafts and technologies such as ceramics, textiles, and geoglyphs. They are known for two extensive construction projects that would have required the coordination of large groups of laborers: the Nazca Lines, immense designs in the desert whose purpose is unknown, and puquios, underground aqueducts for providing water for irrigation and domestic purposes in the arid environment. Several dozen still function today. The Nazca Province in the Ica Region was named for this people.";
+let teotihuacanText = "Teotihuacan is known today as the site of many of the most architecturally significant Mesoamerican pyramids built in the pre-Columbian Americas, namely the Pyramid of the Sun and the Pyramid of the Moon. At its zenith, perhaps in the first half of the first millennium (1 CE to 500 CE), Teotihuacan was the largest city in the Americas, considered as the first advanced civilization on the North American continent, with a population estimated at 125,000 or more, making it at least the sixth-largest city in the world during its epoch.";
+let tiwanakuText = "Tiwanaku began its steady growth in the early centuries of the common era. From approximately 375 to 700 AD, the city grew to significance in the Andes. At its height, the city of Tiwanaku spanned an area of roughly 4 square kilometers (1.5 square miles) and had a population greater than 10,000 individuals. The growth of the city was due to its complex agropastoral economy, supported by trade.";
+let mayaText = "The Maya civilization (/ˈmaɪə/) was a Mesoamerican civilization that existed from antiquity to the early modern period. It is known by its ancient temples and glyphs (script). The Maya script is the most sophisticated and highly developed writing system in the pre-Columbian Americas. The civilization is also noted for its art, architecture, mathematics, calendar, and astronomical system.";
+let cahokiaText = "Cahokia was the largest and most influential urban settlement of the Mississippian culture, which developed advanced societies across much of what is now the Central and the Southeastern United States, beginning more than 1,000 years before European contact. Today, the Cahokia Mounds are considered to be the largest and most complex archaeological site north of the great pre-Columbian cities in Mexico.";
+let aztecText = "From the 13th century, the Valley of Mexico was the heart of dense population and the rise of city-states. The Mexica were late-comers to the Valley of Mexico, and founded the city-state of Tenochtitlan on unpromising islets in Lake Texcoco, later becoming the dominant power of the Aztec Triple Alliance or Aztec Empire. It was an empire that expanded its political hegemony far beyond the Valley of Mexico, conquering other city states throughout Mesoamerica in the late post-classic period.";
+let incaText = "The Inca Empire was unique in that it lacked many of the features associated with civilization in the Old World. Anthropologist Gordon McEwan wrote that the Incas were able to construct 'one of the greatest imperial states in human history' without the use of the wheel, draft animals, knowledge of iron or steel, or even a system of writing.[6] Notable features of the Inca Empire included its monumental architecture, especially stonework, extensive road network reaching all corners of the empire, finely-woven textiles, use of knotted strings (quipu) for record keeping and communication, agricultural innovations and production in a difficult environment, and the organization and management fostered or imposed on its people and their labor.";
+
+let americasTexts = [olmecText, nazcaText, teotihuacanText, tiwanakuText, mayaText, cahokiaText, aztecText, incaText];
+
 
 //main text display variable
 let maintextDisplay = document.querySelector('#maintextdisplay');
 
 let centerPrompt = document.querySelector('#centerprompt');
-// let aboutAuthorBtn = document.querySelector('#aboutauthorbtn');
-
-//Author page
-// let authorInfo = document.querySelector('#authorinfo'); 
-// let authorPage = document.querySelector('#authorpage');
-// let profilePic = document.querySelector('#profilepic');
-// let contactBtn = document.querySelector('#contactbtn');
-// let webDevLink = document.querySelector('#webdevlink');
-
 
 //create a variable that stores the 'page' id
-//when a button is clicked, update the page id
-//use if/else loop to choose which function (to replace the content in the buttons) will fire
-
-
 let pageId = "homepage";
 
 let text1Card = document.querySelector('#text1card');
@@ -303,13 +311,13 @@ function africa() {
 };
 
 //NORTH ASIA PAGE
-function northAsia() {
+function eastasia() {
   for (var i = 0; i < textCards.length; i++) {
-    textCards[i].style.backgroundImage = northasiaImgs[i];
-    centerPrompt.textContent = "North Asia";
-    texts[i].textContent = northasiaDates[i];
-    pageId = "northasia";
-    backgroundImg.setAttribute('class', 'backgroundnorthasia');
+    textCards[i].style.backgroundImage = eastasiaImgs[i];
+    centerPrompt.textContent = "East Asia";
+    texts[i].textContent = eastasiaDates[i];
+    pageId = "eastasia";
+    backgroundImg.setAttribute('class', 'backgroundeastasia');
   };
 };
 
@@ -329,26 +337,28 @@ function europe() {
   for (var i = 0; i < textCards.length; i++) {
     textCards[i].style.backgroundImage = europeImgs[i];
     centerPrompt.textContent = "Europe";
-    texts[i].textContent = europeTexts[i];
+    texts[i].textContent = europeDates[i];
     pageId = "europe";
     backgroundImg.setAttribute('class', 'backgroundeurope');
   };
 };
 
-function euroPreHist() {
-  infoDisplay();
-  text1Card.setAttribute('class', 'infocard');
-  centerPrompt.textContent = euroPreHistText;
-};
+//AMERICAS PAGE
 
-function romeInfo() {
-  infoDisplay();
-  text5Card.setAttribute('class', 'infocard');
-  centerPrompt.textContent = euroRomeText;
+//For background image for americas, need to make a new image that has the pacific ocean stitched together, can be for the americas and oceania
+function americas() {
+  for (var i = 0; i < textCards.length; i++) {
+    textCards[i].style.backgroundImage = americasImgs[i];
+    centerPrompt.textContent = "Americas";
+    texts[i].textContent = americasDates[i];
+    pageId = "americas";
+    backgroundImg.setAttribute('class', 'backgroundamericas');
+  };
 };
-
 
 //Sets display for individual society's info
+//uses pageId to choose correct array
+//uses infoId to itirate to the right position of the array
 function infoDisplay(infoId) {
   for (var i = 0; i < textCards.length; i++) {
     textCards[i].setAttribute('class', 'smallbubble');
@@ -360,32 +370,17 @@ function infoDisplay(infoId) {
     centerPrompt.textContent = midEastInfoTexts[infoId];
   } else if (pageId === "africa") {
     centerPrompt.textContent = africaTexts[infoId];
-  } else if (pageId === "northasia") {
-    centerPrompt.textContent = northasiaTexts[infoId];
+  } else if (pageId === "eastasia") {
+    centerPrompt.textContent = eastasiaTexts[infoId];
   } else if (pageId === "southasia") {
     centerPrompt.textContent = southasiaTexts[infoId];
   } else if (pageId === "europe") {
     centerPrompt.textContent = europeTexts[infoId];
+  } else if (pageId === "americas") {
+    centerPrompt.textContent = americasTexts[infoId];
   }
-
-//TO REFACTOR
-//If else inside of infoDisplay
-//uses pageId to choose correct array
-//uses infoId to itirate to the right position of the array
-
 };
 
-
-//textCARD 1
-//set variables
-
-
-
-// let modal1 = document.querySelector('#modal1');
-// let modalContent1 = document.querySelector('#modalcontent1');
-// let text1Button = document.querySelector('#text1button');
-
-// let aboutButton1 = document.querySelector('#aboutbutton1');
 
 siteTitle.addEventListener('click', function() {
   console.log('are you there');
@@ -397,9 +392,9 @@ seeMoreBtn.addEventListener('click', function(event) {
 
 })
 
+//variable that will tell the infoDisplay function which position in the info-text array to use
 let infoId
 
-//listens for click on one of the text cards
 text1Card.addEventListener('click', function(event) {
     event.preventDefault();
     infoId = 0;
@@ -424,14 +419,9 @@ text3Card.addEventListener('click', function(event) {
   event.preventDefault();
   infoId = 2;
   if (pageId === "homepage") {
-    northAsia();
+    eastasia();
   } else {
     infoDisplay(infoId);
-    // if (pageId === "mideast") {
-    //   centerPrompt.textContent = assyriaText;
-    // } else if (pageId === "europe") {
-    //   euroPreHist();
-    // }
   }
 });
 
@@ -442,11 +432,6 @@ text4Card.addEventListener('click', function(event) {
     southAsia();
   } else {
     infoDisplay(infoId);
-    // if (pageId === "mideast") {
-    //   centerPrompt.textContent = persiaText;
-    // } else if (pageId === "europe") {
-    //   helenistic();
-    // }
   }
 });
 
@@ -457,11 +442,6 @@ text5Card.addEventListener('click', function (event) {
     europe();
   } else {
     infoDisplay(infoId);
-    // if (pageId === "mideast") {
-    //   centerPrompt.textContent = seleucidText;
-    // } else if (pageId === "europe") {
-    //   romeInfo();
-    // }
   }
 });
 
@@ -469,14 +449,9 @@ text6Card.addEventListener('click', function (event) {
   event.preventDefault();
   infoId = 5;
   if (pageId === "homepage") {
-    americaInfo();
+    americas();
   } else {
     infoDisplay(infoId);
-    // if (pageId === "mideast") {
-    //   centerPrompt.textContent = parthiaText;
-    // } else if (pageId === "europe") {
-    //   darkageInfo();
-    // }
   }
 });
 
@@ -487,11 +462,6 @@ text7Card.addEventListener('click', function (event) {
     oceania();
   } else {
     infoDisplay(infoId);
-    // if (pageId === "mideast") {
-    //   centerPrompt.textContent = sasaniaText;
-    // } else if (pageId === "europe") {
-    //   medievalInfo();
-    // }
   }
 });
 
@@ -502,362 +472,5 @@ text8Card.addEventListener('click', function (event) {
     thesteppe();
   } else {
     infoDisplay(infoId);
-    // if (pageId === "mideast") {
-    //   centerPrompt.textContent = umayyadText;
-    // } else if (pageId === "europe") {
-    //   colonizationInfo();
-    // }
   }
 });
-
-
-//listens on 'Keep Reading' button
-// text1Button.addEventListener('click', function() {
-//     openModal();
-//     window.onclick = function(event) {
-//       if (event.target == modal1) {
-//         modal1.style.display = "none";
-//         centerPrompt.setAttribute('class', 'inherit');
-//       }
-//     }
-// });
-
-// aboutButton1.addEventListener('click', function() {
-//   abouttext();
-// });
-
-//textCARD 2
-
-let modal2 = document.querySelector('#modal2');
-let modalContent2 = document.querySelector('#modalcontent2');
-let text2Button = document.querySelector('#text2button');
-
-let aboutButton2 = document.querySelector('#aboutbutton2');
-
-
-
-
-  text2Card.addEventListener('click', function(event) {
-    closeAnyOpen();
-    midtext(event.target);
-});
-
-text2Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal2) {
-        modal2.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
-
-  aboutButton2.addEventListener('click', function() {
-    abouttext();
-  });
-  
-//textCARD 3
-
-let modal3 = document.querySelector('#modal3');
-let modalContent3 = document.querySelector('#modalcontent3');
-let text3Button = document.querySelector('#text3button');
-
-let aboutButton3 = document.querySelector('#aboutbutton3');
-
-
-
-
-  text3Card.addEventListener('click', function(event) {
-    closeAnyOpen();
-    midtext(event.target);
-});
-
-text3Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal3) {
-        modal3.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
-
-aboutButton3.addEventListener('click', function() {
-  abouttext();
-});
-
-
-//textCARD 4
-
-let modal4 = document.querySelector('#modal4');
-let modalContent4 = document.querySelector('#modalcontent4');
-let text4Button = document.querySelector('#text4button');
-
-let aboutButton4 = document.querySelector('#aboutbutton4');
-
-
-
-  text4Card.addEventListener('click', function(event) {
-    closeAnyOpen();
-    midtext(event.target);
-});
-
-text4Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal4) {
-        modal4.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
-
-aboutButton4.addEventListener('click', function() {
-  abouttext();
-});
-
-//textCARD 5
-
-let modal5 = document.querySelector('#modal5');
-let modalContent5 = document.querySelector('#modalcontent5');
-let text5Button = document.querySelector('#text5button');
-
-let aboutButton5 = document.querySelector('#aboutbutton5');
-
-
-
-  text5Card.addEventListener('click', function(event) {
-    closeAnyOpen();
-    midtext(event.target);
-});
-
-text5Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal5) {
-        modal5.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
-
-aboutButton5.addEventListener('click', function() {
-  abouttext();
-});
-
-//text 6
-
-let modal6 = document.querySelector('#modal6');
-let modalContent6 = document.querySelector('#modalcontent6');
-let text6Button = document.querySelector('#text6button');
-
-let aboutButton6 = document.querySelector('#aboutbutton6');
-
-
-
-//listens for click on one of the text cards
-text6Card.addEventListener('click', function(event) {
-//changes size and content when clicked
-    closeAnyOpen();
-    midtext(event.target);
-});
-
-//listens for click on 'keep reading' button
-text6Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal1) {
-        modal1.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
-
-aboutButton6.addEventListener('click', function() {
-  abouttext();
-});
-
-//textCARD 7
-//set variables
-
-let modal7 = document.querySelector('#modal7');
-let modalContent7 = document.querySelector('#modalcontent7');
-let text7Button = document.querySelector('#text7button');
-
-let aboutButton7 = document.querySelector('#aboutbutton7');
-
-
-
-
-//listens for click on one of the text cards
-text7Card.addEventListener('click', function(event) {
-//changes size and content when clicked
-    closeAnyOpen();
-    midtext(event.target);
-});
-
-//listens for click on 'keep reading' button
-text7Button.addEventListener('click', function() {
-    openModal();
-    window.onclick = function(event) {
-      if (event.target == modal7) {
-        modal7.style.display = "none";
-        centerPrompt.setAttribute('class', 'inherit');
-      }
-    }
-});
-
-aboutButton7.addEventListener('click', function() {
-  abouttext();
-});
-
-//textCARD 8
-//set variables
-
-let modal8 = document.querySelector('#modal8');
-let modalContent8 = document.querySelector('#modalcontent8');
-let text8Button = document.querySelector('#text8button');
-
-let aboutButton8 = document.querySelector('#aboutbutton8');
-
-
-
-
-//listens for click on one of the text cards
-text8Card.addEventListener('click', function(event) {
-//changes size and content when clicked
-    closeAnyOpen();
-    if (text8.textContent === 'CONTACT ME') {
-      contactMe();
-    } else {
-    midtext(event.target);
-    }
-});
-
-//listens for click on 'keep reading' button
-text8Button.addEventListener('click', function() {
-  openModal();
-  window.onclick = function(event) {
-    if (event.target == modal8) {
-      modal8.style.display = "none";
-      centerPrompt.setAttribute('class', 'inherit');
-    }
-  }
-});
-
-aboutButton8.addEventListener('click', function() {
-  abouttext();
-});
-
-// var shufflePuzzle = document.querySelector('#shufflepuzzle');
-
-// $('.shufflepuzzle').sortable({
-//   grid: [1, 4]
-// });
-
-
-
-
-let modals = [modal1, modal2, modal3, modal4, modal5, modal6, modal7, modal8];
-let modalContents = [modalContent1, modalContent2, modalContent3, modalContent4, modalContent5, modalContent6, modalContent7, modalContent8];
-let midtexts = [midtext1, midtext2, midtext3, midtext4, midtext5, midtext6, midtext7, midtext8];
-
-let longtexts = [longtext1, longtext2, longtext3, longtext4, longtext5, longtext6, longtext7, longtext8];
-let textButtons = [text1Button, text2Button, text3Button, text4Button, text5Button, text6Button, text7Button, text8Button];
-let aboutButtons = [aboutButton1, aboutButton2, aboutButton3, aboutButton4, aboutButton5, aboutButton6, aboutButton7, aboutButton8];
-let abouttexts = [abouttext1, abouttext2, abouttext3, abouttext4, abouttext5, abouttext6, abouttext7, abouttext8];
-
-//FOR REFACTOR: REUSE THE SAME text BTN AND ABOUT BTN
-
-function closeAnyOpen() {
-  for(var i=0; i < texts.length; i++) {
-    if (texts[i].textContent === midtexts[i]) {
-      texts[i].textContent = shorttexts[i];
-      textButtons[i].setAttribute('class', 'hidden');
-      aboutButtons[i].setAttribute('class', 'hidden');
-      texts[i].setAttribute('style', 'color: inherit');
-    } else if (texts[i].textContent === abouttexts[i]) {
-      texts[i].textContent = shorttexts[i];
-      textButtons[i].setAttribute('class', 'hidden');
-      aboutButtons[i].setAttribute('class', 'hidden');
-      texts[i].setAttribute('style', 'color: inherit');
-    } else if (texts[i].textContent === authorBlurb) {
-      texts[i].textContent = shorttexts[i];
-      texts[i].setAttribute('style', 'color: inherit');
-      profilePic.setAttribute('class', 'hidden');
-      textButtons[i].setAttribute('class', 'hidden');
-      aboutButtons[i].setAttribute('class', 'hidden');
-      contactBtn.setAttribute('class', 'hidden');
-    };
-  }
-};
-
-
-//DON'T NEED TO USE A NEW MODAL FOR EACH ONE
-//REUSE THE SAME MODAL AND SWITCH THE TEXTCONTENT
-function openModal() {
-  for(var i=0; i < texts.length; i++) {
-    if (texts[i].textContent === midtexts[i]) {
-      textButtons[i].setAttribute('class', 'hidden');
-      aboutButtons[i].setAttribute('class', 'hidden');
-    //displays modal with text content
-      modals[i].style.display = "flex";
-      modalContents[i].textContent = longtexts[i];
-    //reverts text card to original state
-      texts[i].textContent = shorttexts[i];
-      textCards[i].setAttribute('style', 'max-width: 250px');
-    }
-  }
-};
-
-function abouttext() {
-  for(var i=0; i < texts.length; i++) {
-    if (texts[i].textContent === midtexts[i]) {
-      textButtons[i].setAttribute('class', 'hidden');
-      aboutButtons[i].setAttribute('class', 'hidden');
-      textCards[i].setAttribute('style', 'max-width: 400px');
-      texts[i].setAttribute('style', 'color: black');
-      texts[i].textContent = abouttexts[i];
-      aboutAuthorBtn.setAttribute('class', 'button');
-    }
-  }
-};
-
-function midtext(event) {
-  for(var i=0; i < texts.length; i++) {
-    if (event === textCards[i] || event === texts[i]) {
-    centerPrompt.setAttribute('class', 'hidden');
-    texts[i].textContent = midtexts[i];
-    textButtons[i].setAttribute('class', 'button');
-    aboutButtons[i].setAttribute('class', 'button');
-    textCards[i].setAttribute('style', 'max-width: 550px');
-    texts[i].setAttribute('style', 'color: black');
-    }
-  }
-};
-
-let formEmail = document.querySelector('#formemail');
-let formName = document.querySelector('#formname');
-let formMessage = document.querySelector('#formmessage');
-let contactSubBtn = document.querySelector('#formsubmit');
-
-function contactMe() {
-  for(var i=0; i < textCards.length; i++) {
-    textCards[i].setAttribute('class', 'hidden');
-  }
-  formEmail.setAttribute('class', 'contactform');
-  formEmail.textContent = 'Email';
-  formName.setAttribute('class', 'contactform');
-  formName.textContent = 'Name';
-  formMessage.setAttribute('class', 'contactform');
-  formMessage.textContent = 'Message';
-  contactSubBtn.setAttribute('class', 'button');
-  //displayForm();
-};
-
-
-//Start the game
-
-
-let question1texts = [text1Q1, text2Q2];
-

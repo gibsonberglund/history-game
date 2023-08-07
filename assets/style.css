@@ -4,6 +4,16 @@
     transition: 2s;
 } */
 
+* {
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+body {
+  background-image: url("./images/backgroundmapsized.jpg");
+  background-size: cover;
+  background-position: absolute;
+}
+
 .backgroundimg {
   margin-top: -1%;
   position: fixed;
@@ -15,9 +25,9 @@
 }
 
 .backgroundmideast {
-  width: 250%;
-  height: 250%;
-  transform: translate(-1875px, -320px);
+  width: 300%;
+  height: 300%;
+  transform: translate(-1950px, -400px);
   z-index: -1;
   margin-top: -1%;
   transition: 2s;
@@ -25,19 +35,19 @@
 }
 
 .backgroundafrica {
-  width: 250%;
-  height: 250%;
-  transform: translate(-1530px, -500px);
+  width: 150%;
+  height: 150%;
+  transform: translate(-460px, -200px);
   z-index: -1;
   margin-top: -1%;
   transition: 2s;
   position: fixed;
 }
 
-.backgroundnorthasia {
+.backgroundeastasia {
   width: 300%;
   height: 300%;
-  transform: translate(-3065px, -500px);
+  transform: translate(-3020px, -375px);
   z-index: -1;
   margin-top: -1%;
   transition: 2s;
@@ -45,9 +55,9 @@
 }
 
 .backgroundsouthasia {
-  width: 250%;
-  height: 250%;
-  transform: translate(-2250px, -550px);
+  width: 200%;
+  height: 200%;
+  transform: translate(-1500px, -345px);
   z-index: -1;
   margin-top: -1%;
   transition: 2s;
@@ -57,7 +67,18 @@
 .backgroundeurope {
   width: 250%;
   height: 250%;
-  transform: translate(-1619px, -50px);
+  transform: translate(-1120px, -50px);
+  z-index: -1;
+  margin-top: -1%;
+  transition: 2s;
+  position: fixed;
+}
+
+.backgroundamericas {
+  width: 250%;
+  height: 250%;
+  rotate: -40deg;
+  transform: translate(519px, -1100px);
   z-index: -1;
   margin-top: -1%;
   transition: 2s;
@@ -85,6 +106,7 @@
 .header h1{
   font-size: 24px;
   color: white;
+  background-color: #a879377f;
 }
 
 #octoTop {
@@ -140,9 +162,8 @@
   display: flex;
   justify-content: center;
   width: 65%;
-  color: white;
+  color: black;
 }
-
 
 #text5card {
   /* background-image: url("./images/europe-thumbnail.jpg"); */
