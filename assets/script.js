@@ -2,8 +2,22 @@ let siteTitle = document.querySelector('#sitetitle');
 
 let backgroundImg = document.querySelector('#backgroundimg');
 
-//HOMEPAGE
+//ABOUT PAGE
 
+let aboutBtn = document.querySelector('#aboutBtn');
+
+let aboutPage = document.querySelector('#aboutpage');
+
+// let aboutSiteTitle = "What is this website?";
+// let aboutSite = "The goal of this website is to make history education more enjoyable, and to promote education in diverse global history rather than conventional Euro-centric history (common in U.S. classrooms). Currently, this is an early draft of the concept, and for the time being all the texts are excerpts from Wikipedia articles; in future development these texts will be replaced with excerpts from proper academic sources. There are many other possibilities for future development, such as building text-based games into the functionality.";
+
+// let aboutMeTitle = "Who made it?";
+// let aboutMe = "My name is Gibson Berglund, I'm a web developer based in Minneapolis, MN. I have a passion for ancient history, and I wanted to challenge myself to make something that could spark a similar passion in elementary, middle, or high school students, who all too often do not get a proper world history education. For any professional inquiries about my Web Development services, please feel free to contact me at one of the links below:";
+
+
+let territoryIndicator = document.querySelector("#territoryindicator");
+
+//HOMEPAGE
 let homePagePrompt = "Choose A Realm";
 
 let mideastThumb = "url('./assets/images/mideast-thumbnail.jpg')";
@@ -383,9 +397,14 @@ function infoDisplay(infoId) {
 
 
 siteTitle.addEventListener('click', function() {
-  console.log('are you there');
-  homePage();
-})
+  if (pageId === "aboutpage") {
+    aboutPage.setAttribute('class', 'aboutpagehidden');
+    maintextDisplay.style.display = "inherit";
+    homePage();
+  } else {
+    homePage();
+  }
+});
 
 seeMoreBtn.addEventListener('click', function(event) {
   event.preventDefault();
@@ -401,7 +420,8 @@ text1Card.addEventListener('click', function(event) {
     if (pageId === "homepage") {
       midEast();
     } else {
-      infoDisplay(infoId)
+      infoDisplay(infoId);
+      territoryIndicator.setAttribute('class', 'gobekliterritory');
     }
 });
 
@@ -474,3 +494,9 @@ text8Card.addEventListener('click', function (event) {
     infoDisplay(infoId);
   }
 });
+
+aboutBtn.addEventListener('click', function () {
+  maintextDisplay.style.display = "none";
+  aboutPage.setAttribute('class', 'aboutpage');
+  pageId = "aboutpage";
+})

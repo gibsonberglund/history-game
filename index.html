@@ -16,133 +16,141 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
-<body class="background">
+<body>
     <img src="./assets/images/backgroundmapsized.jpg" class="backgroundimg" id="backgroundimg">
     <!-- <div class="locationcolor" id="locationcolor" style="display: none;"></div> -->
     <header id="header" class="header">
         <h1 id="sitetitle" class="text-center"> Monumental Societies of the Ancient World
             <br><small>Prehistory - A.D. 1500 </small></br></h1>
+        <h1 id="aboutBtn" class="aboutBtn">ABOUT</h1>
     </header>
+
     <section id="maintextdisplay">
 
-    <div id="octoTop">
-        <div class="textdisplay">
-            <div id="text1card" class="textcard">
-                <p id="text1" class="text"></p>
-                <btn id="seemorebtn">See More</btn>
+        <div id="octoTop">
+            <div class="textdisplay">
+                <div id="text1card" class="textcard">
+                    <p id="text1" class="text"></p>
+                    <btn id="seemorebtn">See More</btn>
+                </div>
             </div>
-        </div>
-            <div id="modal1" class="modal">
-                <pre id="modalcontent1" class="modal-content"></pre>
-            </div>
-    </div>
-        
-    <div id="octoMid1">
-        <div id="octoMid1Left">
-            <div id="text8card" class="textcard">
-                <p id="text8" class="text"></p>
-            </div>
-                <div id="modal2" class="modal">
-                    <pre id="modalcontent2" class="modal-content"></pre>
+                <div id="modal1" class="modal">
+                    <pre id="modalcontent1" class="modal-content"></pre>
                 </div>
         </div>
-
-        <div id="octMid1Right" style="display: flex">
-            <div id="text2card" class="textcard">
-                <p id="text2" class="text"></p>
-            </div>
-                <div id="modal3" class="modal">
-                    <span class="close3">&times;</span>
-                        <pre id="modalcontent3" class="modal-content"></pre>
+            
+        <div id="octoMid1">
+            <div id="octoMid1Left">
+                <div id="text8card" class="textcard">
+                    <p id="text8" class="text"></p>
                 </div>
-        </div>
-        </div>
-    </div>
+                    <div id="modal2" class="modal">
+                        <pre id="modalcontent2" class="modal-content"></pre>
+                    </div>
+            </div>
 
-    <div id="octoMid2">
-        <div id="octoMid2Left">
-        <div id="text7card" class="textcard">
-            <p id="text7" class="text"></p>
-        </div>
-            <div id="modal4" class="modal">
-                <span class="close4">&times;</span>
-                    <pre id="modalcontent4" class="modal-content"></pre>
+            <div id="octMid1Right" style="display: flex">
+                <div id="text2card" class="textcard">
+                    <p id="text2" class="text"></p>
+                </div>
+                    <div id="modal3" class="modal">
+                        <span class="close3">&times;</span>
+                            <pre id="modalcontent3" class="modal-content"></pre>
+                    </div>
+            </div>
             </div>
         </div>
 
-        <div id="octocenter">
-            <p id="centerprompt"></p>
+        <div id="octoMid2">
+            <div id="octoMid2Left">
+            <div id="text7card" class="textcard">
+                <p id="text7" class="text"></p>
+            </div>
+                <div id="modal4" class="modal">
+                    <span class="close4">&times;</span>
+                        <pre id="modalcontent4" class="modal-content"></pre>
+                </div>
+            </div>
 
-            <!--Author Info-->
-            <btn id="aboutauthorbtn" class="hidden">About the author</btn>
-            <section id="authorpage" class="hidden">
-                <img id="profilepic" class="hidden" src="./assets/images/author-profile-pic.jpg">
-            </section>
-            <!--Contact Me-->
-            <input class="hidden" type="text" id="formemail" placeholder="Email">
-            <input class="hidden" type="text" id="formname" placeholder="Name">
-            <input class="hidden" type="text" id="formmessage" placeholder="Message">
-            <btn class="hidden" id="formsubmit">Submit</btn>
+            <div id="octocenter">
+                <p id="centerprompt"></p>
+                <div id="territoryindicator" class="hidden" style="background-color: rgba(137, 43, 226, 0.571);"></div>
+            </div>
+
+            <div id="octoMid2Right">
+                <div id="text3card" class="textcard">
+                    <p id="text3" class="text"></p>
+                </div>
+                    <div id="modal5" class="modal">
+                        <span class="close5">&times;</span>
+                            <pre id="modalcontent5" class="modal-content">
+
+                            </pre>
+                    </div>
+            </div>
         </div>
 
-        <div id="octoMid2Right">
-            <div id="text3card" class="textcard">
-                <p id="text3" class="text"></p>
+        <div id="octoMid3">
+            <div id='octoMid3Left'>
+                <div id="text6card" class="textcard">
+                    <p id="text6" class="text"></p>
+                </div>
+                    <div id="modal6" class="modal">
+                        <span class="close6">&times;</span>
+                            <pre id="modalcontent6" class="modal-content">
+
+                            </pre>
+                    </div>
             </div>
-                <div id="modal5" class="modal">
-                    <span class="close5">&times;</span>
-                        <pre id="modalcontent5" class="modal-content">
+
+            <div id='octoMid3Right'>
+                <div id="text4card" class="textcard">
+                    <p id="text4" class="text"></p>
+                </div>
+                <div id="modal7" class="modal">
+                    <span class="close7">&times;</span>
+                        <pre id="modalcontent7" class="modal-content">
+
+                        </pre>
+                </div>
+            </div>
+        </div>
+
+        <div id="octoBottom">
+            <div id="text5card" class="textcard">
+                <p id="text5" class="text"></p>
+                <btn id="contactbtn" class="hidden">Contact Me</btn>
+            </div>
+                <div id="modal8" class="modal">
+                    <span class="close8">&times;</span>
+                        <pre id="modalcontent8" class="modal-content">
 
                         </pre>
                 </div>
         </div>
-    </div>
+    </section>
 
-    <div id="octoMid3">
-        <div id='octoMid3Left'>
-            <div id="text6card" class="textcard">
-                <p id="text6" class="text"></p>
+    <section id="aboutpage" class="hidden">
+        <div class="aboutpageinfocontainer">
+            <div class="aboutpagesection">
+                <h1 id="aboutsitetitle">What is this website?</h1>
+                <p id="aboutsite" style="font-size: 18px;">The goal of this website is to make history education more enjoyable, and to promote education in diverse global history rather than the conventional Euro-centric history common in U.S. classrooms. This is an early draft of the concept, and for the time being all the texts are excerpts from Wikipedia articles; in future development these texts will be replaced with excerpts from proper academic sources. There are many other possibilities for future development, such as building text-based games into the functionality.</p>
             </div>
-                <div id="modal6" class="modal">
-                    <span class="close6">&times;</span>
-                        <pre id="modalcontent6" class="modal-content">
-
-                        </pre>
-                </div>
-        </div>
-
-        <div id='octoMid3Right'>
-            <div id="text4card" class="textcard">
-                <p id="text4" class="text"></p>
-            </div>
-            <div id="modal7" class="modal">
-                <span class="close7">&times;</span>
-                    <pre id="modalcontent7" class="modal-content">
-
-                    </pre>
+            <div class="aboutpagesection">
+                <h1 id="aboutmetitle">Who made it?</h1>
+                <p id="aboutme" style="font-size: 18px;">My name is Gibson Berglund, I'm a web developer based in Minneapolis, MN. I have a passion for ancient history, and I wanted to challenge myself to make something that could spark a similar passion in elementary, middle, or high school students, who all too often do not get a proper world history education. For any professional inquiries about my web development services, please feel free to contact me at one of the links below.</p>
             </div>
         </div>
-    </div>
-
-    <div id="octoBottom">
-        <div id="text5card" class="textcard">
-            <p id="text5" class="text"></p>
-            <btn id="contactbtn" class="hidden">Contact Me</btn>
-        </div>
-            <div id="modal8" class="modal">
-                <span class="close8">&times;</span>
-                    <pre id="modalcontent8" class="modal-content">
-
-                    </pre>
+        <div style="display: block; text-align: center; margin-top: -5%;">
+            <p id="emailaddress">Email me: berglundgibson@gmail.com</p>
+            <div style="display: flex; justify-content: center;">
+                <a id="linkedinlink" href="https://www.linkedin.com/in/gibson-berglund/"><img src="./assets/images/free-linkedin-logo-icon-2430-thumb.png" style="width: 50px; height: 50px;"></a>
+                <a id="githublink" href="https://github.com/gibsonberglund"><img src="./assets/images/github-icon.png" style="width: 50px; height: 50px;"></a>
             </div>
-    </div>
-</section>
-
+        </div>
+    </section>
 
     <a href="https://github.com/gibsonberglund" class="hidden" id="webdevlink">Like my website? I'm also a web developer, click here if you're interested</a>
-
-
-
 
 <!--
 <section id="puzzle1">
